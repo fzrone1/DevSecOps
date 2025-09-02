@@ -1,0 +1,28 @@
+2025-09-02_06:50:01.56305 time=2025-09-02T06:50:01.562Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:01.56313 time=2025-09-02T06:50:01.563Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:01.56353 time=2025-09-02T06:50:01.563Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:01.56446 time=2025-09-02T06:50:01.564Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:02.58357 time=2025-09-02T06:50:02.583Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:02.58363 time=2025-09-02T06:50:02.583Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:02.58405 time=2025-09-02T06:50:02.583Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:02.58456 time=2025-09-02T06:50:02.584Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:03.60261 time=2025-09-02T06:50:03.602Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:03.60268 time=2025-09-02T06:50:03.602Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:03.60322 time=2025-09-02T06:50:03.603Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:03.60399 time=2025-09-02T06:50:03.603Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:04.64315 time=2025-09-02T06:50:04.643Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:04.64317 time=2025-09-02T06:50:04.643Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:04.64362 time=2025-09-02T06:50:04.643Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:04.64426 time=2025-09-02T06:50:04.644Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:05.67790 time=2025-09-02T06:50:05.677Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:05.67792 time=2025-09-02T06:50:05.677Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:05.67839 time=2025-09-02T06:50:05.678Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:05.67890 time=2025-09-02T06:50:05.678Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:06.71370 time=2025-09-02T06:50:06.713Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:06.71374 time=2025-09-02T06:50:06.713Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:06.71414 time=2025-09-02T06:50:06.714Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:06.71467 time=2025-09-02T06:50:06.714Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"
+2025-09-02_06:50:06.69341 time=2025-09-02T06:50:06.693Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.28.1, branch=master, revision=b2099eaa2c9ebc25edb26517cb9c732738e93910)"
+2025-09-02_06:50:06.69347 time=2025-09-02T06:50:06.693Z level=INFO source=main.go:192 msg="Build context" build_context="(go=go1.24.5, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2025-09-02_06:50:06.69466 time=2025-09-02T06:50:06.694Z level=INFO source=cluster.go:185 msg="setting advertise address explicitly" component=cluster addr=172.21.0.2 port=9094
+2025-09-02_06:50:06.69566 time=2025-09-02T06:50:06.695Z level=ERROR source=main.go:277 msg="error creating notification log" err="open /var/opt/gitlab/alertmanager/data/nflog: permission denied"

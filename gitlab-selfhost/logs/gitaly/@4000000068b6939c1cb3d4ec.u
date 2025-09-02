@@ -1,0 +1,979 @@
+{"level":"info","msg":"Wrapper started","pid":291,"time":"2025-09-02T06:48:52.258Z","wrapper":291}
+{"level":"info","msg":"finding process","pid":291,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:52.258Z","wrapper":291}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":291,"time":"2025-09-02T06:48:52.258Z","wrapper":291}
+{"level":"info","msg":"spawning a process","pid":291,"time":"2025-09-02T06:48:52.258Z","wrapper":291}
+{"level":"info","msg":"monitoring process","pid":291,"process":298,"time":"2025-09-02T06:48:52.258Z","wrapper":291}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":298,"time":"2025-09-02T06:48:52.442Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":298,"time":"2025-09-02T06:48:52.443Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":298,"time":"2025-09-02T06:48:52.443Z"}
+{"level":"info","msg":"Starting Gitaly","pid":298,"time":"2025-09-02T06:48:52.443Z","version":"18.3.1"}
+{"level":"info","msg":"removed leftover gitaly process directory","path":"/var/opt/gitlab/gitaly/run/gitaly-21834","pid":298,"time":"2025-09-02T06:48:52.444Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":298,"time":"2025-09-02T06:48:52.445Z"}
+{"duration_ms":60,"level":"info","msg":"finished unpacking auxiliary binaries","pid":298,"time":"2025-09-02T06:48:52.505Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":298,"time":"2025-09-02T06:48:52.505Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":298,"time":"2025-09-02T06:48:52.506Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-298/git-exec-4272489233.d/git","level":"info","msg":"using Git binary","pid":298,"time":"2025-09-02T06:48:52.506Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":298,"time":"2025-09-02T06:48:52.509Z"}
+{"level":"info","msg":"using Git version","pid":298,"time":"2025-09-02T06:48:52.509Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":298,"storage":"default","time":"2025-09-02T06:48:52.509Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":291,"time":"2025-09-02T06:48:52.552Z","wrapper":291}
+{"level":"warning","msg":"forwarding signal","pid":291,"process":298,"signal":17,"time":"2025-09-02T06:48:52.552Z","wrapper":291}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":291,"process":298,"signal":17,"time":"2025-09-02T06:48:52.552Z","wrapper":291}
+{"level":"error","msg":"wrapper for process shutting down","pid":291,"process":298,"time":"2025-09-02T06:48:53.261Z","wrapper":291}
+{"level":"info","msg":"Wrapper started","pid":324,"time":"2025-09-02T06:48:53.586Z","wrapper":324}
+{"level":"info","msg":"finding process","pid":324,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:53.586Z","wrapper":324}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":324,"time":"2025-09-02T06:48:53.586Z","wrapper":324}
+{"level":"info","msg":"spawning a process","pid":324,"time":"2025-09-02T06:48:53.586Z","wrapper":324}
+{"level":"info","msg":"monitoring process","pid":324,"process":331,"time":"2025-09-02T06:48:53.586Z","wrapper":324}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":331,"time":"2025-09-02T06:48:53.765Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":331,"time":"2025-09-02T06:48:53.766Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":331,"time":"2025-09-02T06:48:53.766Z"}
+{"level":"info","msg":"Starting Gitaly","pid":331,"time":"2025-09-02T06:48:53.766Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":331,"time":"2025-09-02T06:48:53.767Z"}
+{"duration_ms":64,"level":"info","msg":"finished unpacking auxiliary binaries","pid":331,"time":"2025-09-02T06:48:53.832Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":331,"time":"2025-09-02T06:48:53.832Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":331,"time":"2025-09-02T06:48:53.833Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-331/git-exec-40911870.d/git","level":"info","msg":"using Git binary","pid":331,"time":"2025-09-02T06:48:53.833Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":331,"time":"2025-09-02T06:48:53.836Z"}
+{"level":"info","msg":"using Git version","pid":331,"time":"2025-09-02T06:48:53.836Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":331,"storage":"default","time":"2025-09-02T06:48:53.836Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":324,"time":"2025-09-02T06:48:53.878Z","wrapper":324}
+{"level":"warning","msg":"forwarding signal","pid":324,"process":331,"signal":17,"time":"2025-09-02T06:48:53.878Z","wrapper":324}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":324,"process":331,"signal":17,"time":"2025-09-02T06:48:53.878Z","wrapper":324}
+{"level":"error","msg":"wrapper for process shutting down","pid":324,"process":331,"time":"2025-09-02T06:48:54.589Z","wrapper":324}
+{"level":"info","msg":"Wrapper started","pid":355,"time":"2025-09-02T06:48:54.597Z","wrapper":355}
+{"level":"info","msg":"finding process","pid":355,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:54.597Z","wrapper":355}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":355,"time":"2025-09-02T06:48:54.597Z","wrapper":355}
+{"level":"info","msg":"spawning a process","pid":355,"time":"2025-09-02T06:48:54.597Z","wrapper":355}
+{"level":"info","msg":"monitoring process","pid":355,"process":362,"time":"2025-09-02T06:48:54.597Z","wrapper":355}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":362,"time":"2025-09-02T06:48:54.784Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":362,"time":"2025-09-02T06:48:54.785Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":362,"time":"2025-09-02T06:48:54.785Z"}
+{"level":"info","msg":"Starting Gitaly","pid":362,"time":"2025-09-02T06:48:54.785Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":362,"time":"2025-09-02T06:48:54.786Z"}
+{"duration_ms":67,"level":"info","msg":"finished unpacking auxiliary binaries","pid":362,"time":"2025-09-02T06:48:54.853Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":362,"time":"2025-09-02T06:48:54.853Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":362,"time":"2025-09-02T06:48:54.855Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-362/git-exec-3542824159.d/git","level":"info","msg":"using Git binary","pid":362,"time":"2025-09-02T06:48:54.855Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":362,"time":"2025-09-02T06:48:54.858Z"}
+{"level":"info","msg":"using Git version","pid":362,"time":"2025-09-02T06:48:54.858Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":362,"storage":"default","time":"2025-09-02T06:48:54.858Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":355,"time":"2025-09-02T06:48:54.900Z","wrapper":355}
+{"level":"warning","msg":"forwarding signal","pid":355,"process":362,"signal":17,"time":"2025-09-02T06:48:54.900Z","wrapper":355}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":355,"process":362,"signal":17,"time":"2025-09-02T06:48:54.900Z","wrapper":355}
+{"level":"error","msg":"wrapper for process shutting down","pid":355,"process":362,"time":"2025-09-02T06:48:55.600Z","wrapper":355}
+{"level":"info","msg":"Wrapper started","pid":385,"time":"2025-09-02T06:48:55.607Z","wrapper":385}
+{"level":"info","msg":"finding process","pid":385,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:55.607Z","wrapper":385}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":385,"time":"2025-09-02T06:48:55.607Z","wrapper":385}
+{"level":"info","msg":"spawning a process","pid":385,"time":"2025-09-02T06:48:55.607Z","wrapper":385}
+{"level":"info","msg":"monitoring process","pid":385,"process":392,"time":"2025-09-02T06:48:55.608Z","wrapper":385}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":392,"time":"2025-09-02T06:48:55.785Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":392,"time":"2025-09-02T06:48:55.786Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":392,"time":"2025-09-02T06:48:55.786Z"}
+{"level":"info","msg":"Starting Gitaly","pid":392,"time":"2025-09-02T06:48:55.786Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":392,"time":"2025-09-02T06:48:55.787Z"}
+{"duration_ms":50,"level":"info","msg":"finished unpacking auxiliary binaries","pid":392,"time":"2025-09-02T06:48:55.837Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":392,"time":"2025-09-02T06:48:55.837Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":392,"time":"2025-09-02T06:48:55.839Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-392/git-exec-3210315468.d/git","level":"info","msg":"using Git binary","pid":392,"time":"2025-09-02T06:48:55.839Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":392,"time":"2025-09-02T06:48:55.841Z"}
+{"level":"info","msg":"using Git version","pid":392,"time":"2025-09-02T06:48:55.841Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":392,"storage":"default","time":"2025-09-02T06:48:55.842Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":385,"time":"2025-09-02T06:48:55.884Z","wrapper":385}
+{"level":"warning","msg":"forwarding signal","pid":385,"process":392,"signal":17,"time":"2025-09-02T06:48:55.884Z","wrapper":385}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":385,"process":392,"signal":17,"time":"2025-09-02T06:48:55.884Z","wrapper":385}
+{"level":"error","msg":"wrapper for process shutting down","pid":385,"process":392,"time":"2025-09-02T06:48:56.611Z","wrapper":385}
+{"level":"info","msg":"Wrapper started","pid":414,"time":"2025-09-02T06:48:56.618Z","wrapper":414}
+{"level":"info","msg":"finding process","pid":414,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:56.618Z","wrapper":414}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":414,"time":"2025-09-02T06:48:56.618Z","wrapper":414}
+{"level":"info","msg":"spawning a process","pid":414,"time":"2025-09-02T06:48:56.618Z","wrapper":414}
+{"level":"info","msg":"monitoring process","pid":414,"process":421,"time":"2025-09-02T06:48:56.619Z","wrapper":414}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":421,"time":"2025-09-02T06:48:56.790Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":421,"time":"2025-09-02T06:48:56.790Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":421,"time":"2025-09-02T06:48:56.790Z"}
+{"level":"info","msg":"Starting Gitaly","pid":421,"time":"2025-09-02T06:48:56.790Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":421,"time":"2025-09-02T06:48:56.791Z"}
+{"duration_ms":53,"level":"info","msg":"finished unpacking auxiliary binaries","pid":421,"time":"2025-09-02T06:48:56.844Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":421,"time":"2025-09-02T06:48:56.845Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":421,"time":"2025-09-02T06:48:56.846Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-421/git-exec-31573385.d/git","level":"info","msg":"using Git binary","pid":421,"time":"2025-09-02T06:48:56.846Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":421,"time":"2025-09-02T06:48:56.848Z"}
+{"level":"info","msg":"using Git version","pid":421,"time":"2025-09-02T06:48:56.848Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":421,"storage":"default","time":"2025-09-02T06:48:56.849Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":414,"time":"2025-09-02T06:48:56.889Z","wrapper":414}
+{"level":"warning","msg":"forwarding signal","pid":414,"process":421,"signal":17,"time":"2025-09-02T06:48:56.890Z","wrapper":414}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":414,"process":421,"signal":17,"time":"2025-09-02T06:48:56.890Z","wrapper":414}
+{"level":"error","msg":"wrapper for process shutting down","pid":414,"process":421,"time":"2025-09-02T06:48:57.622Z","wrapper":414}
+{"level":"info","msg":"Wrapper started","pid":442,"time":"2025-09-02T06:48:57.629Z","wrapper":442}
+{"level":"info","msg":"finding process","pid":442,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:57.629Z","wrapper":442}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":442,"time":"2025-09-02T06:48:57.629Z","wrapper":442}
+{"level":"info","msg":"spawning a process","pid":442,"time":"2025-09-02T06:48:57.629Z","wrapper":442}
+{"level":"info","msg":"monitoring process","pid":442,"process":449,"time":"2025-09-02T06:48:57.630Z","wrapper":442}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":449,"time":"2025-09-02T06:48:57.806Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":449,"time":"2025-09-02T06:48:57.806Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":449,"time":"2025-09-02T06:48:57.806Z"}
+{"level":"info","msg":"Starting Gitaly","pid":449,"time":"2025-09-02T06:48:57.806Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":449,"time":"2025-09-02T06:48:57.807Z"}
+{"duration_ms":53,"level":"info","msg":"finished unpacking auxiliary binaries","pid":449,"time":"2025-09-02T06:48:57.860Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":449,"time":"2025-09-02T06:48:57.860Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":449,"time":"2025-09-02T06:48:57.862Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-449/git-exec-1003827381.d/git","level":"info","msg":"using Git binary","pid":449,"time":"2025-09-02T06:48:57.862Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":449,"time":"2025-09-02T06:48:57.864Z"}
+{"level":"info","msg":"using Git version","pid":449,"time":"2025-09-02T06:48:57.864Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":449,"storage":"default","time":"2025-09-02T06:48:57.865Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":442,"time":"2025-09-02T06:48:57.906Z","wrapper":442}
+{"level":"warning","msg":"forwarding signal","pid":442,"process":449,"signal":17,"time":"2025-09-02T06:48:57.906Z","wrapper":442}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":442,"process":449,"signal":17,"time":"2025-09-02T06:48:57.906Z","wrapper":442}
+{"level":"error","msg":"wrapper for process shutting down","pid":442,"process":449,"time":"2025-09-02T06:48:58.632Z","wrapper":442}
+{"level":"info","msg":"Wrapper started","pid":478,"time":"2025-09-02T06:48:58.640Z","wrapper":478}
+{"level":"info","msg":"finding process","pid":478,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:58.640Z","wrapper":478}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":478,"time":"2025-09-02T06:48:58.640Z","wrapper":478}
+{"level":"info","msg":"spawning a process","pid":478,"time":"2025-09-02T06:48:58.640Z","wrapper":478}
+{"level":"info","msg":"monitoring process","pid":478,"process":485,"time":"2025-09-02T06:48:58.641Z","wrapper":478}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":485,"time":"2025-09-02T06:48:58.807Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":485,"time":"2025-09-02T06:48:58.807Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":485,"time":"2025-09-02T06:48:58.807Z"}
+{"level":"info","msg":"Starting Gitaly","pid":485,"time":"2025-09-02T06:48:58.807Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":485,"time":"2025-09-02T06:48:58.808Z"}
+{"duration_ms":54,"level":"info","msg":"finished unpacking auxiliary binaries","pid":485,"time":"2025-09-02T06:48:58.863Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":485,"time":"2025-09-02T06:48:58.863Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":485,"time":"2025-09-02T06:48:58.865Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-485/git-exec-3176816328.d/git","level":"info","msg":"using Git binary","pid":485,"time":"2025-09-02T06:48:58.865Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":485,"time":"2025-09-02T06:48:58.867Z"}
+{"level":"info","msg":"using Git version","pid":485,"time":"2025-09-02T06:48:58.867Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":485,"storage":"default","time":"2025-09-02T06:48:58.867Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":478,"process":485,"signal":17,"time":"2025-09-02T06:48:58.915Z","wrapper":478}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":478,"time":"2025-09-02T06:48:58.915Z","wrapper":478}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":478,"process":485,"signal":17,"time":"2025-09-02T06:48:58.916Z","wrapper":478}
+{"level":"error","msg":"wrapper for process shutting down","pid":478,"process":485,"time":"2025-09-02T06:48:59.644Z","wrapper":478}
+{"level":"info","msg":"Wrapper started","pid":529,"time":"2025-09-02T06:48:59.652Z","wrapper":529}
+{"level":"info","msg":"finding process","pid":529,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:48:59.652Z","wrapper":529}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":529,"time":"2025-09-02T06:48:59.652Z","wrapper":529}
+{"level":"info","msg":"spawning a process","pid":529,"time":"2025-09-02T06:48:59.652Z","wrapper":529}
+{"level":"info","msg":"monitoring process","pid":529,"process":536,"time":"2025-09-02T06:48:59.653Z","wrapper":529}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":536,"time":"2025-09-02T06:48:59.843Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":536,"time":"2025-09-02T06:48:59.844Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":536,"time":"2025-09-02T06:48:59.844Z"}
+{"level":"info","msg":"Starting Gitaly","pid":536,"time":"2025-09-02T06:48:59.844Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":536,"time":"2025-09-02T06:48:59.845Z"}
+{"duration_ms":64,"level":"info","msg":"finished unpacking auxiliary binaries","pid":536,"time":"2025-09-02T06:48:59.910Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":536,"time":"2025-09-02T06:48:59.910Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":536,"time":"2025-09-02T06:48:59.912Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-536/git-exec-3321432555.d/git","level":"info","msg":"using Git binary","pid":536,"time":"2025-09-02T06:48:59.912Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":536,"time":"2025-09-02T06:48:59.914Z"}
+{"level":"info","msg":"using Git version","pid":536,"time":"2025-09-02T06:48:59.914Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":536,"storage":"default","time":"2025-09-02T06:48:59.915Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":529,"process":536,"signal":17,"time":"2025-09-02T06:48:59.957Z","wrapper":529}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":529,"process":536,"signal":17,"time":"2025-09-02T06:48:59.957Z","wrapper":529}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":529,"time":"2025-09-02T06:48:59.957Z","wrapper":529}
+{"level":"error","msg":"wrapper for process shutting down","pid":529,"process":536,"time":"2025-09-02T06:49:00.657Z","wrapper":529}
+{"level":"info","msg":"Wrapper started","pid":571,"time":"2025-09-02T06:49:00.664Z","wrapper":571}
+{"level":"info","msg":"finding process","pid":571,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:00.664Z","wrapper":571}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":571,"time":"2025-09-02T06:49:00.664Z","wrapper":571}
+{"level":"info","msg":"spawning a process","pid":571,"time":"2025-09-02T06:49:00.664Z","wrapper":571}
+{"level":"info","msg":"monitoring process","pid":571,"process":578,"time":"2025-09-02T06:49:00.664Z","wrapper":571}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":578,"time":"2025-09-02T06:49:00.817Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":578,"time":"2025-09-02T06:49:00.818Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":578,"time":"2025-09-02T06:49:00.818Z"}
+{"level":"info","msg":"Starting Gitaly","pid":578,"time":"2025-09-02T06:49:00.818Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":578,"time":"2025-09-02T06:49:00.819Z"}
+{"duration_ms":57,"level":"info","msg":"finished unpacking auxiliary binaries","pid":578,"time":"2025-09-02T06:49:00.877Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":578,"time":"2025-09-02T06:49:00.877Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":578,"time":"2025-09-02T06:49:00.879Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-578/git-exec-1241114873.d/git","level":"info","msg":"using Git binary","pid":578,"time":"2025-09-02T06:49:00.880Z"}
+{"duration_ms":10,"level":"info","msg":"finished detecting git version","pid":578,"time":"2025-09-02T06:49:00.890Z"}
+{"level":"info","msg":"using Git version","pid":578,"time":"2025-09-02T06:49:00.890Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":578,"storage":"default","time":"2025-09-02T06:49:00.890Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":571,"process":578,"signal":17,"time":"2025-09-02T06:49:00.938Z","wrapper":571}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":571,"process":578,"signal":17,"time":"2025-09-02T06:49:00.938Z","wrapper":571}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":571,"time":"2025-09-02T06:49:00.938Z","wrapper":571}
+{"level":"error","msg":"wrapper for process shutting down","pid":571,"process":578,"time":"2025-09-02T06:49:01.667Z","wrapper":571}
+{"level":"info","msg":"Wrapper started","pid":616,"time":"2025-09-02T06:49:01.677Z","wrapper":616}
+{"level":"info","msg":"finding process","pid":616,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:01.677Z","wrapper":616}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":616,"time":"2025-09-02T06:49:01.677Z","wrapper":616}
+{"level":"info","msg":"spawning a process","pid":616,"time":"2025-09-02T06:49:01.677Z","wrapper":616}
+{"level":"info","msg":"monitoring process","pid":616,"process":623,"time":"2025-09-02T06:49:01.678Z","wrapper":616}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":623,"time":"2025-09-02T06:49:01.877Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":623,"time":"2025-09-02T06:49:01.878Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":623,"time":"2025-09-02T06:49:01.878Z"}
+{"level":"info","msg":"Starting Gitaly","pid":623,"time":"2025-09-02T06:49:01.878Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":623,"time":"2025-09-02T06:49:01.879Z"}
+{"duration_ms":98,"level":"info","msg":"finished unpacking auxiliary binaries","pid":623,"time":"2025-09-02T06:49:01.978Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":623,"time":"2025-09-02T06:49:01.978Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":623,"time":"2025-09-02T06:49:01.980Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-623/git-exec-3924412178.d/git","level":"info","msg":"using Git binary","pid":623,"time":"2025-09-02T06:49:01.980Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":623,"time":"2025-09-02T06:49:01.983Z"}
+{"level":"info","msg":"using Git version","pid":623,"time":"2025-09-02T06:49:01.983Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":623,"storage":"default","time":"2025-09-02T06:49:01.983Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":616,"time":"2025-09-02T06:49:02.031Z","wrapper":616}
+{"level":"warning","msg":"forwarding signal","pid":616,"process":623,"signal":17,"time":"2025-09-02T06:49:02.031Z","wrapper":616}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":616,"process":623,"signal":17,"time":"2025-09-02T06:49:02.031Z","wrapper":616}
+{"level":"error","msg":"wrapper for process shutting down","pid":616,"process":623,"time":"2025-09-02T06:49:02.680Z","wrapper":616}
+{"level":"info","msg":"Wrapper started","pid":649,"time":"2025-09-02T06:49:02.690Z","wrapper":649}
+{"level":"info","msg":"finding process","pid":649,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:02.690Z","wrapper":649}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":649,"time":"2025-09-02T06:49:02.690Z","wrapper":649}
+{"level":"info","msg":"spawning a process","pid":649,"time":"2025-09-02T06:49:02.690Z","wrapper":649}
+{"level":"info","msg":"monitoring process","pid":649,"process":656,"time":"2025-09-02T06:49:02.691Z","wrapper":649}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":656,"time":"2025-09-02T06:49:02.882Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":656,"time":"2025-09-02T06:49:02.883Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":656,"time":"2025-09-02T06:49:02.883Z"}
+{"level":"info","msg":"Starting Gitaly","pid":656,"time":"2025-09-02T06:49:02.883Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":656,"time":"2025-09-02T06:49:02.884Z"}
+{"duration_ms":63,"level":"info","msg":"finished unpacking auxiliary binaries","pid":656,"time":"2025-09-02T06:49:02.948Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":656,"time":"2025-09-02T06:49:02.948Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":656,"time":"2025-09-02T06:49:02.950Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-656/git-exec-1928960634.d/git","level":"info","msg":"using Git binary","pid":656,"time":"2025-09-02T06:49:02.950Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":656,"time":"2025-09-02T06:49:02.953Z"}
+{"level":"info","msg":"using Git version","pid":656,"time":"2025-09-02T06:49:02.953Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":656,"storage":"default","time":"2025-09-02T06:49:02.953Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":649,"time":"2025-09-02T06:49:03.003Z","wrapper":649}
+{"level":"warning","msg":"forwarding signal","pid":649,"process":656,"signal":17,"time":"2025-09-02T06:49:03.003Z","wrapper":649}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":649,"process":656,"signal":17,"time":"2025-09-02T06:49:03.003Z","wrapper":649}
+{"level":"error","msg":"wrapper for process shutting down","pid":649,"process":656,"time":"2025-09-02T06:49:03.694Z","wrapper":649}
+{"level":"info","msg":"Wrapper started","pid":691,"time":"2025-09-02T06:49:03.705Z","wrapper":691}
+{"level":"info","msg":"finding process","pid":691,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:03.705Z","wrapper":691}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":691,"time":"2025-09-02T06:49:03.705Z","wrapper":691}
+{"level":"info","msg":"spawning a process","pid":691,"time":"2025-09-02T06:49:03.705Z","wrapper":691}
+{"level":"info","msg":"monitoring process","pid":691,"process":698,"time":"2025-09-02T06:49:03.706Z","wrapper":691}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":698,"time":"2025-09-02T06:49:03.894Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":698,"time":"2025-09-02T06:49:03.894Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":698,"time":"2025-09-02T06:49:03.894Z"}
+{"level":"info","msg":"Starting Gitaly","pid":698,"time":"2025-09-02T06:49:03.894Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":698,"time":"2025-09-02T06:49:03.895Z"}
+{"duration_ms":69,"level":"info","msg":"finished unpacking auxiliary binaries","pid":698,"time":"2025-09-02T06:49:03.964Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":698,"time":"2025-09-02T06:49:03.964Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":698,"time":"2025-09-02T06:49:03.966Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-698/git-exec-1535894359.d/git","level":"info","msg":"using Git binary","pid":698,"time":"2025-09-02T06:49:03.966Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":698,"time":"2025-09-02T06:49:03.969Z"}
+{"level":"info","msg":"using Git version","pid":698,"time":"2025-09-02T06:49:03.969Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":698,"storage":"default","time":"2025-09-02T06:49:03.969Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":691,"process":698,"signal":17,"time":"2025-09-02T06:49:04.012Z","wrapper":691}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":691,"process":698,"signal":17,"time":"2025-09-02T06:49:04.012Z","wrapper":691}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":691,"time":"2025-09-02T06:49:04.012Z","wrapper":691}
+{"level":"error","msg":"wrapper for process shutting down","pid":691,"process":698,"time":"2025-09-02T06:49:04.709Z","wrapper":691}
+{"level":"info","msg":"Wrapper started","pid":732,"time":"2025-09-02T06:49:04.717Z","wrapper":732}
+{"level":"info","msg":"finding process","pid":732,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:04.717Z","wrapper":732}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":732,"time":"2025-09-02T06:49:04.717Z","wrapper":732}
+{"level":"info","msg":"spawning a process","pid":732,"time":"2025-09-02T06:49:04.717Z","wrapper":732}
+{"level":"info","msg":"monitoring process","pid":732,"process":740,"time":"2025-09-02T06:49:04.717Z","wrapper":732}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":740,"time":"2025-09-02T06:49:04.875Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":740,"time":"2025-09-02T06:49:04.876Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":740,"time":"2025-09-02T06:49:04.876Z"}
+{"level":"info","msg":"Starting Gitaly","pid":740,"time":"2025-09-02T06:49:04.876Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":740,"time":"2025-09-02T06:49:04.877Z"}
+{"duration_ms":57,"level":"info","msg":"finished unpacking auxiliary binaries","pid":740,"time":"2025-09-02T06:49:04.934Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":740,"time":"2025-09-02T06:49:04.935Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":740,"time":"2025-09-02T06:49:04.936Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-740/git-exec-799409616.d/git","level":"info","msg":"using Git binary","pid":740,"time":"2025-09-02T06:49:04.936Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":740,"time":"2025-09-02T06:49:04.939Z"}
+{"level":"info","msg":"using Git version","pid":740,"time":"2025-09-02T06:49:04.939Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":740,"storage":"default","time":"2025-09-02T06:49:04.939Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":732,"time":"2025-09-02T06:49:03.792Z","wrapper":732}
+{"level":"warning","msg":"forwarding signal","pid":732,"process":740,"signal":17,"time":"2025-09-02T06:49:03.792Z","wrapper":732}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":732,"process":740,"signal":17,"time":"2025-09-02T06:49:03.792Z","wrapper":732}
+{"level":"error","msg":"wrapper for process shutting down","pid":732,"process":740,"time":"2025-09-02T06:49:04.525Z","wrapper":732}
+{"level":"info","msg":"Wrapper started","pid":788,"time":"2025-09-02T06:49:05.533Z","wrapper":788}
+{"level":"info","msg":"finding process","pid":788,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:05.533Z","wrapper":788}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":788,"time":"2025-09-02T06:49:05.533Z","wrapper":788}
+{"level":"info","msg":"spawning a process","pid":788,"time":"2025-09-02T06:49:05.533Z","wrapper":788}
+{"level":"info","msg":"monitoring process","pid":788,"process":795,"time":"2025-09-02T06:49:05.533Z","wrapper":788}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":795,"time":"2025-09-02T06:49:05.716Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":795,"time":"2025-09-02T06:49:05.717Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":795,"time":"2025-09-02T06:49:05.717Z"}
+{"level":"info","msg":"Starting Gitaly","pid":795,"time":"2025-09-02T06:49:05.717Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":795,"time":"2025-09-02T06:49:05.718Z"}
+{"duration_ms":62,"level":"info","msg":"finished unpacking auxiliary binaries","pid":795,"time":"2025-09-02T06:49:05.780Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":795,"time":"2025-09-02T06:49:05.781Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":795,"time":"2025-09-02T06:49:05.782Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-795/git-exec-3632654407.d/git","level":"info","msg":"using Git binary","pid":795,"time":"2025-09-02T06:49:05.782Z"}
+{"duration_ms":4,"level":"info","msg":"finished detecting git version","pid":795,"time":"2025-09-02T06:49:05.787Z"}
+{"level":"info","msg":"using Git version","pid":795,"time":"2025-09-02T06:49:05.787Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":795,"storage":"default","time":"2025-09-02T06:49:05.787Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":788,"process":795,"signal":17,"time":"2025-09-02T06:49:05.829Z","wrapper":788}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":788,"process":795,"signal":17,"time":"2025-09-02T06:49:05.829Z","wrapper":788}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":788,"time":"2025-09-02T06:49:05.829Z","wrapper":788}
+{"level":"error","msg":"wrapper for process shutting down","pid":788,"process":795,"time":"2025-09-02T06:49:06.536Z","wrapper":788}
+{"level":"info","msg":"Wrapper started","pid":831,"time":"2025-09-02T06:49:06.544Z","wrapper":831}
+{"level":"info","msg":"finding process","pid":831,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:06.544Z","wrapper":831}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":831,"time":"2025-09-02T06:49:06.544Z","wrapper":831}
+{"level":"info","msg":"spawning a process","pid":831,"time":"2025-09-02T06:49:06.544Z","wrapper":831}
+{"level":"info","msg":"monitoring process","pid":831,"process":838,"time":"2025-09-02T06:49:06.544Z","wrapper":831}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":838,"time":"2025-09-02T06:49:06.715Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":838,"time":"2025-09-02T06:49:06.716Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":838,"time":"2025-09-02T06:49:06.716Z"}
+{"level":"info","msg":"Starting Gitaly","pid":838,"time":"2025-09-02T06:49:06.716Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":838,"time":"2025-09-02T06:49:06.717Z"}
+{"duration_ms":66,"level":"info","msg":"finished unpacking auxiliary binaries","pid":838,"time":"2025-09-02T06:49:06.784Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":838,"time":"2025-09-02T06:49:06.784Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":838,"time":"2025-09-02T06:49:06.786Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-838/git-exec-562552434.d/git","level":"info","msg":"using Git binary","pid":838,"time":"2025-09-02T06:49:06.786Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":838,"time":"2025-09-02T06:49:06.789Z"}
+{"level":"info","msg":"using Git version","pid":838,"time":"2025-09-02T06:49:06.789Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":838,"storage":"default","time":"2025-09-02T06:49:06.789Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":831,"time":"2025-09-02T06:49:06.831Z","wrapper":831}
+{"level":"warning","msg":"forwarding signal","pid":831,"process":838,"signal":17,"time":"2025-09-02T06:49:06.831Z","wrapper":831}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":831,"process":838,"signal":17,"time":"2025-09-02T06:49:06.831Z","wrapper":831}
+{"level":"error","msg":"wrapper for process shutting down","pid":831,"process":838,"time":"2025-09-02T06:49:07.547Z","wrapper":831}
+{"level":"info","msg":"Wrapper started","pid":874,"time":"2025-09-02T06:49:07.555Z","wrapper":874}
+{"level":"info","msg":"finding process","pid":874,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:07.555Z","wrapper":874}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":874,"time":"2025-09-02T06:49:07.555Z","wrapper":874}
+{"level":"info","msg":"spawning a process","pid":874,"time":"2025-09-02T06:49:07.555Z","wrapper":874}
+{"level":"info","msg":"monitoring process","pid":874,"process":881,"time":"2025-09-02T06:49:07.556Z","wrapper":874}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":881,"time":"2025-09-02T06:49:07.724Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":881,"time":"2025-09-02T06:49:07.724Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":881,"time":"2025-09-02T06:49:07.724Z"}
+{"level":"info","msg":"Starting Gitaly","pid":881,"time":"2025-09-02T06:49:07.724Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":881,"time":"2025-09-02T06:49:07.725Z"}
+{"duration_ms":69,"level":"info","msg":"finished unpacking auxiliary binaries","pid":881,"time":"2025-09-02T06:49:07.794Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":881,"time":"2025-09-02T06:49:07.794Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":881,"time":"2025-09-02T06:49:07.796Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-881/git-exec-3995436983.d/git","level":"info","msg":"using Git binary","pid":881,"time":"2025-09-02T06:49:07.796Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":881,"time":"2025-09-02T06:49:07.799Z"}
+{"level":"info","msg":"using Git version","pid":881,"time":"2025-09-02T06:49:07.799Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":881,"storage":"default","time":"2025-09-02T06:49:07.799Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":874,"time":"2025-09-02T06:49:07.840Z","wrapper":874}
+{"level":"warning","msg":"forwarding signal","pid":874,"process":881,"signal":17,"time":"2025-09-02T06:49:07.840Z","wrapper":874}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":874,"process":881,"signal":17,"time":"2025-09-02T06:49:07.840Z","wrapper":874}
+{"level":"error","msg":"wrapper for process shutting down","pid":874,"process":881,"time":"2025-09-02T06:49:08.559Z","wrapper":874}
+{"level":"info","msg":"Wrapper started","pid":916,"time":"2025-09-02T06:49:08.567Z","wrapper":916}
+{"level":"info","msg":"finding process","pid":916,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:08.567Z","wrapper":916}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":916,"time":"2025-09-02T06:49:08.567Z","wrapper":916}
+{"level":"info","msg":"spawning a process","pid":916,"time":"2025-09-02T06:49:08.567Z","wrapper":916}
+{"level":"info","msg":"monitoring process","pid":916,"process":923,"time":"2025-09-02T06:49:08.568Z","wrapper":916}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":923,"time":"2025-09-02T06:49:08.759Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":923,"time":"2025-09-02T06:49:08.760Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":923,"time":"2025-09-02T06:49:08.760Z"}
+{"level":"info","msg":"Starting Gitaly","pid":923,"time":"2025-09-02T06:49:08.760Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":923,"time":"2025-09-02T06:49:08.761Z"}
+{"duration_ms":64,"level":"info","msg":"finished unpacking auxiliary binaries","pid":923,"time":"2025-09-02T06:49:08.826Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":923,"time":"2025-09-02T06:49:08.826Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":923,"time":"2025-09-02T06:49:08.828Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-923/git-exec-3296801524.d/git","level":"info","msg":"using Git binary","pid":923,"time":"2025-09-02T06:49:08.828Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":923,"time":"2025-09-02T06:49:08.830Z"}
+{"level":"info","msg":"using Git version","pid":923,"time":"2025-09-02T06:49:08.830Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":923,"storage":"default","time":"2025-09-02T06:49:08.830Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":916,"time":"2025-09-02T06:49:08.872Z","wrapper":916}
+{"level":"warning","msg":"forwarding signal","pid":916,"process":923,"signal":17,"time":"2025-09-02T06:49:08.872Z","wrapper":916}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":916,"process":923,"signal":17,"time":"2025-09-02T06:49:08.872Z","wrapper":916}
+{"level":"error","msg":"wrapper for process shutting down","pid":916,"process":923,"time":"2025-09-02T06:49:09.573Z","wrapper":916}
+{"level":"info","msg":"Wrapper started","pid":947,"time":"2025-09-02T06:49:09.581Z","wrapper":947}
+{"level":"info","msg":"finding process","pid":947,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:09.581Z","wrapper":947}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":947,"time":"2025-09-02T06:49:09.581Z","wrapper":947}
+{"level":"info","msg":"spawning a process","pid":947,"time":"2025-09-02T06:49:09.581Z","wrapper":947}
+{"level":"info","msg":"monitoring process","pid":947,"process":954,"time":"2025-09-02T06:49:09.581Z","wrapper":947}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":954,"time":"2025-09-02T06:49:09.770Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":954,"time":"2025-09-02T06:49:09.771Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":954,"time":"2025-09-02T06:49:09.771Z"}
+{"level":"info","msg":"Starting Gitaly","pid":954,"time":"2025-09-02T06:49:09.771Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":954,"time":"2025-09-02T06:49:09.771Z"}
+{"duration_ms":94,"level":"info","msg":"finished unpacking auxiliary binaries","pid":954,"time":"2025-09-02T06:49:09.866Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":954,"time":"2025-09-02T06:49:09.866Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":954,"time":"2025-09-02T06:49:09.868Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-954/git-exec-2353914.d/git","level":"info","msg":"using Git binary","pid":954,"time":"2025-09-02T06:49:09.868Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":954,"time":"2025-09-02T06:49:09.871Z"}
+{"level":"info","msg":"using Git version","pid":954,"time":"2025-09-02T06:49:09.871Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":954,"storage":"default","time":"2025-09-02T06:49:09.871Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":947,"time":"2025-09-02T06:49:09.918Z","wrapper":947}
+{"level":"warning","msg":"forwarding signal","pid":947,"process":954,"signal":17,"time":"2025-09-02T06:49:09.918Z","wrapper":947}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":947,"process":954,"signal":17,"time":"2025-09-02T06:49:09.918Z","wrapper":947}
+{"level":"error","msg":"wrapper for process shutting down","pid":947,"process":954,"time":"2025-09-02T06:49:10.584Z","wrapper":947}
+{"level":"info","msg":"Wrapper started","pid":989,"time":"2025-09-02T06:49:10.591Z","wrapper":989}
+{"level":"info","msg":"finding process","pid":989,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:10.591Z","wrapper":989}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":989,"time":"2025-09-02T06:49:10.591Z","wrapper":989}
+{"level":"info","msg":"spawning a process","pid":989,"time":"2025-09-02T06:49:10.591Z","wrapper":989}
+{"level":"info","msg":"monitoring process","pid":989,"process":996,"time":"2025-09-02T06:49:10.591Z","wrapper":989}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":996,"time":"2025-09-02T06:49:10.761Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":996,"time":"2025-09-02T06:49:10.762Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":996,"time":"2025-09-02T06:49:10.762Z"}
+{"level":"info","msg":"Starting Gitaly","pid":996,"time":"2025-09-02T06:49:10.762Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":996,"time":"2025-09-02T06:49:10.763Z"}
+{"duration_ms":57,"level":"info","msg":"finished unpacking auxiliary binaries","pid":996,"time":"2025-09-02T06:49:10.821Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":996,"time":"2025-09-02T06:49:10.821Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":996,"time":"2025-09-02T06:49:10.823Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-996/git-exec-3652192594.d/git","level":"info","msg":"using Git binary","pid":996,"time":"2025-09-02T06:49:10.823Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":996,"time":"2025-09-02T06:49:10.825Z"}
+{"level":"info","msg":"using Git version","pid":996,"time":"2025-09-02T06:49:10.826Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":996,"storage":"default","time":"2025-09-02T06:49:10.826Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":989,"time":"2025-09-02T06:49:10.868Z","wrapper":989}
+{"level":"warning","msg":"forwarding signal","pid":989,"process":996,"signal":17,"time":"2025-09-02T06:49:10.868Z","wrapper":989}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":989,"process":996,"signal":17,"time":"2025-09-02T06:49:10.868Z","wrapper":989}
+{"level":"error","msg":"wrapper for process shutting down","pid":989,"process":996,"time":"2025-09-02T06:49:11.594Z","wrapper":989}
+{"level":"info","msg":"Wrapper started","pid":1039,"time":"2025-09-02T06:49:11.602Z","wrapper":1039}
+{"level":"info","msg":"finding process","pid":1039,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:11.602Z","wrapper":1039}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1039,"time":"2025-09-02T06:49:11.602Z","wrapper":1039}
+{"level":"info","msg":"spawning a process","pid":1039,"time":"2025-09-02T06:49:11.602Z","wrapper":1039}
+{"level":"info","msg":"monitoring process","pid":1039,"process":1046,"time":"2025-09-02T06:49:11.602Z","wrapper":1039}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1046,"time":"2025-09-02T06:49:11.782Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1046,"time":"2025-09-02T06:49:11.783Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1046,"time":"2025-09-02T06:49:11.783Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1046,"time":"2025-09-02T06:49:11.783Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1046,"time":"2025-09-02T06:49:11.784Z"}
+{"duration_ms":95,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1046,"time":"2025-09-02T06:49:11.879Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1046,"time":"2025-09-02T06:49:11.880Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1046,"time":"2025-09-02T06:49:11.881Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1046/git-exec-973209893.d/git","level":"info","msg":"using Git binary","pid":1046,"time":"2025-09-02T06:49:11.881Z"}
+{"duration_ms":5,"level":"info","msg":"finished detecting git version","pid":1046,"time":"2025-09-02T06:49:11.886Z"}
+{"level":"info","msg":"using Git version","pid":1046,"time":"2025-09-02T06:49:11.886Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1046,"storage":"default","time":"2025-09-02T06:49:11.887Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1039,"time":"2025-09-02T06:49:11.931Z","wrapper":1039}
+{"level":"warning","msg":"forwarding signal","pid":1039,"process":1046,"signal":17,"time":"2025-09-02T06:49:11.931Z","wrapper":1039}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1039,"process":1046,"signal":17,"time":"2025-09-02T06:49:11.931Z","wrapper":1039}
+{"level":"error","msg":"wrapper for process shutting down","pid":1039,"process":1046,"time":"2025-09-02T06:49:12.605Z","wrapper":1039}
+{"level":"info","msg":"Wrapper started","pid":1082,"time":"2025-09-02T06:49:12.612Z","wrapper":1082}
+{"level":"info","msg":"finding process","pid":1082,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:12.612Z","wrapper":1082}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1082,"time":"2025-09-02T06:49:12.612Z","wrapper":1082}
+{"level":"info","msg":"spawning a process","pid":1082,"time":"2025-09-02T06:49:12.612Z","wrapper":1082}
+{"level":"info","msg":"monitoring process","pid":1082,"process":1089,"time":"2025-09-02T06:49:12.612Z","wrapper":1082}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1089,"time":"2025-09-02T06:49:12.789Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1089,"time":"2025-09-02T06:49:12.790Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1089,"time":"2025-09-02T06:49:12.790Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1089,"time":"2025-09-02T06:49:12.790Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1089,"time":"2025-09-02T06:49:12.791Z"}
+{"duration_ms":102,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1089,"time":"2025-09-02T06:49:12.894Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1089,"time":"2025-09-02T06:49:12.894Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1089,"time":"2025-09-02T06:49:12.897Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1089/git-exec-3969908022.d/git","level":"info","msg":"using Git binary","pid":1089,"time":"2025-09-02T06:49:12.897Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1089,"time":"2025-09-02T06:49:12.899Z"}
+{"level":"info","msg":"using Git version","pid":1089,"time":"2025-09-02T06:49:12.900Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1089,"storage":"default","time":"2025-09-02T06:49:12.900Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1082,"time":"2025-09-02T06:49:12.943Z","wrapper":1082}
+{"level":"warning","msg":"forwarding signal","pid":1082,"process":1089,"signal":17,"time":"2025-09-02T06:49:12.943Z","wrapper":1082}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1082,"process":1089,"signal":17,"time":"2025-09-02T06:49:12.943Z","wrapper":1082}
+{"level":"error","msg":"wrapper for process shutting down","pid":1082,"process":1089,"time":"2025-09-02T06:49:13.613Z","wrapper":1082}
+{"level":"info","msg":"Wrapper started","pid":1123,"time":"2025-09-02T06:49:13.621Z","wrapper":1123}
+{"level":"info","msg":"finding process","pid":1123,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:13.621Z","wrapper":1123}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1123,"time":"2025-09-02T06:49:13.621Z","wrapper":1123}
+{"level":"info","msg":"spawning a process","pid":1123,"time":"2025-09-02T06:49:13.621Z","wrapper":1123}
+{"level":"info","msg":"monitoring process","pid":1123,"process":1130,"time":"2025-09-02T06:49:13.621Z","wrapper":1123}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1130,"time":"2025-09-02T06:49:13.799Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1130,"time":"2025-09-02T06:49:13.800Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1130,"time":"2025-09-02T06:49:13.800Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1130,"time":"2025-09-02T06:49:13.800Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1130,"time":"2025-09-02T06:49:13.807Z"}
+{"duration_ms":124,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1130,"time":"2025-09-02T06:49:13.931Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1130,"time":"2025-09-02T06:49:13.931Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1130,"time":"2025-09-02T06:49:13.933Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1130/git-exec-157787316.d/git","level":"info","msg":"using Git binary","pid":1130,"time":"2025-09-02T06:49:13.933Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1130,"time":"2025-09-02T06:49:13.935Z"}
+{"level":"info","msg":"using Git version","pid":1130,"time":"2025-09-02T06:49:13.935Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1130,"storage":"default","time":"2025-09-02T06:49:13.936Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1123,"time":"2025-09-02T06:49:13.986Z","wrapper":1123}
+{"level":"warning","msg":"forwarding signal","pid":1123,"process":1130,"signal":17,"time":"2025-09-02T06:49:13.986Z","wrapper":1123}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1123,"process":1130,"signal":17,"time":"2025-09-02T06:49:13.986Z","wrapper":1123}
+{"level":"error","msg":"wrapper for process shutting down","pid":1123,"process":1130,"time":"2025-09-02T06:49:14.625Z","wrapper":1123}
+{"level":"info","msg":"Wrapper started","pid":1166,"time":"2025-09-02T06:49:14.632Z","wrapper":1166}
+{"level":"info","msg":"finding process","pid":1166,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:14.632Z","wrapper":1166}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1166,"time":"2025-09-02T06:49:14.632Z","wrapper":1166}
+{"level":"info","msg":"spawning a process","pid":1166,"time":"2025-09-02T06:49:14.632Z","wrapper":1166}
+{"level":"info","msg":"monitoring process","pid":1166,"process":1173,"time":"2025-09-02T06:49:14.632Z","wrapper":1166}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1173,"time":"2025-09-02T06:49:14.804Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1173,"time":"2025-09-02T06:49:14.804Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1173,"time":"2025-09-02T06:49:14.804Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1173,"time":"2025-09-02T06:49:14.804Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1173,"time":"2025-09-02T06:49:14.805Z"}
+{"duration_ms":79,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1173,"time":"2025-09-02T06:49:14.885Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1173,"time":"2025-09-02T06:49:14.885Z"}
+{"duration_ms":3,"level":"info","msg":"finished initializing command factory","pid":1173,"time":"2025-09-02T06:49:14.889Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1173/git-exec-2647252219.d/git","level":"info","msg":"using Git binary","pid":1173,"time":"2025-09-02T06:49:14.889Z"}
+{"duration_ms":5,"level":"info","msg":"finished detecting git version","pid":1173,"time":"2025-09-02T06:49:14.894Z"}
+{"level":"info","msg":"using Git version","pid":1173,"time":"2025-09-02T06:49:14.895Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1173,"storage":"default","time":"2025-09-02T06:49:14.895Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1166,"time":"2025-09-02T06:49:14.947Z","wrapper":1166}
+{"level":"warning","msg":"forwarding signal","pid":1166,"process":1173,"signal":17,"time":"2025-09-02T06:49:14.947Z","wrapper":1166}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1166,"process":1173,"signal":17,"time":"2025-09-02T06:49:14.947Z","wrapper":1166}
+{"level":"error","msg":"wrapper for process shutting down","pid":1166,"process":1173,"time":"2025-09-02T06:49:15.635Z","wrapper":1166}
+{"level":"info","msg":"Wrapper started","pid":1211,"time":"2025-09-02T06:49:15.643Z","wrapper":1211}
+{"level":"info","msg":"finding process","pid":1211,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:15.643Z","wrapper":1211}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1211,"time":"2025-09-02T06:49:15.643Z","wrapper":1211}
+{"level":"info","msg":"spawning a process","pid":1211,"time":"2025-09-02T06:49:15.643Z","wrapper":1211}
+{"level":"info","msg":"monitoring process","pid":1211,"process":1218,"time":"2025-09-02T06:49:15.643Z","wrapper":1211}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1218,"time":"2025-09-02T06:49:15.810Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1218,"time":"2025-09-02T06:49:15.810Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1218,"time":"2025-09-02T06:49:15.810Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1218,"time":"2025-09-02T06:49:15.810Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1218,"time":"2025-09-02T06:49:15.811Z"}
+{"duration_ms":79,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1218,"time":"2025-09-02T06:49:15.891Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1218,"time":"2025-09-02T06:49:15.891Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1218,"time":"2025-09-02T06:49:15.892Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1218/git-exec-71018981.d/git","level":"info","msg":"using Git binary","pid":1218,"time":"2025-09-02T06:49:15.893Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1218,"time":"2025-09-02T06:49:15.895Z"}
+{"level":"info","msg":"using Git version","pid":1218,"time":"2025-09-02T06:49:15.895Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1218,"storage":"default","time":"2025-09-02T06:49:15.895Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1211,"time":"2025-09-02T06:49:15.941Z","wrapper":1211}
+{"level":"warning","msg":"forwarding signal","pid":1211,"process":1218,"signal":17,"time":"2025-09-02T06:49:15.941Z","wrapper":1211}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1211,"process":1218,"signal":17,"time":"2025-09-02T06:49:15.941Z","wrapper":1211}
+{"level":"error","msg":"wrapper for process shutting down","pid":1211,"process":1218,"time":"2025-09-02T06:49:16.647Z","wrapper":1211}
+{"level":"info","msg":"Wrapper started","pid":1253,"time":"2025-09-02T06:49:16.655Z","wrapper":1253}
+{"level":"info","msg":"finding process","pid":1253,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:16.655Z","wrapper":1253}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1253,"time":"2025-09-02T06:49:16.655Z","wrapper":1253}
+{"level":"info","msg":"spawning a process","pid":1253,"time":"2025-09-02T06:49:16.655Z","wrapper":1253}
+{"level":"info","msg":"monitoring process","pid":1253,"process":1261,"time":"2025-09-02T06:49:16.656Z","wrapper":1253}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1261,"time":"2025-09-02T06:49:16.850Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1261,"time":"2025-09-02T06:49:16.850Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1261,"time":"2025-09-02T06:49:16.851Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1261,"time":"2025-09-02T06:49:16.851Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1261,"time":"2025-09-02T06:49:16.854Z"}
+{"duration_ms":117,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1261,"time":"2025-09-02T06:49:16.972Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1261,"time":"2025-09-02T06:49:16.972Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1261,"time":"2025-09-02T06:49:16.974Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1261/git-exec-300084244.d/git","level":"info","msg":"using Git binary","pid":1261,"time":"2025-09-02T06:49:16.974Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1261,"time":"2025-09-02T06:49:16.976Z"}
+{"level":"info","msg":"using Git version","pid":1261,"time":"2025-09-02T06:49:16.976Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1261,"storage":"default","time":"2025-09-02T06:49:16.976Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1253,"time":"2025-09-02T06:49:17.030Z","wrapper":1253}
+{"level":"warning","msg":"forwarding signal","pid":1253,"process":1261,"signal":17,"time":"2025-09-02T06:49:17.030Z","wrapper":1253}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1253,"process":1261,"signal":17,"time":"2025-09-02T06:49:17.030Z","wrapper":1253}
+{"level":"error","msg":"wrapper for process shutting down","pid":1253,"process":1261,"time":"2025-09-02T06:49:17.658Z","wrapper":1253}
+{"level":"info","msg":"Wrapper started","pid":1296,"time":"2025-09-02T06:49:17.665Z","wrapper":1296}
+{"level":"info","msg":"finding process","pid":1296,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:17.666Z","wrapper":1296}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1296,"time":"2025-09-02T06:49:17.666Z","wrapper":1296}
+{"level":"info","msg":"spawning a process","pid":1296,"time":"2025-09-02T06:49:17.666Z","wrapper":1296}
+{"level":"info","msg":"monitoring process","pid":1296,"process":1303,"time":"2025-09-02T06:49:17.666Z","wrapper":1296}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1303,"time":"2025-09-02T06:49:17.834Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1303,"time":"2025-09-02T06:49:17.835Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1303,"time":"2025-09-02T06:49:17.835Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1303,"time":"2025-09-02T06:49:17.835Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1303,"time":"2025-09-02T06:49:17.836Z"}
+{"duration_ms":74,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1303,"time":"2025-09-02T06:49:17.911Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1303,"time":"2025-09-02T06:49:17.911Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1303,"time":"2025-09-02T06:49:17.913Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1303/git-exec-2533278200.d/git","level":"info","msg":"using Git binary","pid":1303,"time":"2025-09-02T06:49:17.913Z"}
+{"duration_ms":14,"level":"info","msg":"finished detecting git version","pid":1303,"time":"2025-09-02T06:49:17.928Z"}
+{"level":"info","msg":"using Git version","pid":1303,"time":"2025-09-02T06:49:17.931Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1303,"storage":"default","time":"2025-09-02T06:49:17.931Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1296,"time":"2025-09-02T06:49:17.978Z","wrapper":1296}
+{"level":"warning","msg":"forwarding signal","pid":1296,"process":1303,"signal":17,"time":"2025-09-02T06:49:17.978Z","wrapper":1296}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1296,"process":1303,"signal":17,"time":"2025-09-02T06:49:17.978Z","wrapper":1296}
+{"level":"error","msg":"wrapper for process shutting down","pid":1296,"process":1303,"time":"2025-09-02T06:49:18.669Z","wrapper":1296}
+{"level":"info","msg":"Wrapper started","pid":1341,"time":"2025-09-02T06:49:18.676Z","wrapper":1341}
+{"level":"info","msg":"finding process","pid":1341,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:18.676Z","wrapper":1341}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1341,"time":"2025-09-02T06:49:18.676Z","wrapper":1341}
+{"level":"info","msg":"spawning a process","pid":1341,"time":"2025-09-02T06:49:18.676Z","wrapper":1341}
+{"level":"info","msg":"monitoring process","pid":1341,"process":1349,"time":"2025-09-02T06:49:18.677Z","wrapper":1341}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1349,"time":"2025-09-02T06:49:18.865Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1349,"time":"2025-09-02T06:49:18.865Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1349,"time":"2025-09-02T06:49:18.865Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1349,"time":"2025-09-02T06:49:18.865Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1349,"time":"2025-09-02T06:49:18.866Z"}
+{"duration_ms":85,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1349,"time":"2025-09-02T06:49:18.951Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1349,"time":"2025-09-02T06:49:18.951Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1349,"time":"2025-09-02T06:49:18.953Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1349/git-exec-3348076226.d/git","level":"info","msg":"using Git binary","pid":1349,"time":"2025-09-02T06:49:18.953Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1349,"time":"2025-09-02T06:49:18.956Z"}
+{"level":"info","msg":"using Git version","pid":1349,"time":"2025-09-02T06:49:18.956Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1349,"storage":"default","time":"2025-09-02T06:49:18.956Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1341,"time":"2025-09-02T06:49:19.006Z","wrapper":1341}
+{"level":"warning","msg":"forwarding signal","pid":1341,"process":1349,"signal":17,"time":"2025-09-02T06:49:19.006Z","wrapper":1341}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1341,"process":1349,"signal":17,"time":"2025-09-02T06:49:19.007Z","wrapper":1341}
+{"level":"error","msg":"wrapper for process shutting down","pid":1341,"process":1349,"time":"2025-09-02T06:49:19.679Z","wrapper":1341}
+{"level":"info","msg":"Wrapper started","pid":1396,"time":"2025-09-02T06:49:19.687Z","wrapper":1396}
+{"level":"info","msg":"finding process","pid":1396,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:19.687Z","wrapper":1396}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1396,"time":"2025-09-02T06:49:19.687Z","wrapper":1396}
+{"level":"info","msg":"spawning a process","pid":1396,"time":"2025-09-02T06:49:19.687Z","wrapper":1396}
+{"level":"info","msg":"monitoring process","pid":1396,"process":1403,"time":"2025-09-02T06:49:19.687Z","wrapper":1396}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1403,"time":"2025-09-02T06:49:19.851Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1403,"time":"2025-09-02T06:49:19.851Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1403,"time":"2025-09-02T06:49:19.851Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1403,"time":"2025-09-02T06:49:19.851Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1403,"time":"2025-09-02T06:49:19.852Z"}
+{"duration_ms":83,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1403,"time":"2025-09-02T06:49:19.936Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1403,"time":"2025-09-02T06:49:19.936Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1403,"time":"2025-09-02T06:49:19.938Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1403/git-exec-997773661.d/git","level":"info","msg":"using Git binary","pid":1403,"time":"2025-09-02T06:49:19.938Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1403,"time":"2025-09-02T06:49:19.941Z"}
+{"level":"info","msg":"using Git version","pid":1403,"time":"2025-09-02T06:49:19.941Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1403,"storage":"default","time":"2025-09-02T06:49:19.941Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1396,"time":"2025-09-02T06:49:19.982Z","wrapper":1396}
+{"level":"warning","msg":"forwarding signal","pid":1396,"process":1403,"signal":17,"time":"2025-09-02T06:49:19.982Z","wrapper":1396}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1396,"process":1403,"signal":17,"time":"2025-09-02T06:49:19.982Z","wrapper":1396}
+{"level":"error","msg":"wrapper for process shutting down","pid":1396,"process":1403,"time":"2025-09-02T06:49:20.691Z","wrapper":1396}
+{"level":"info","msg":"Wrapper started","pid":1438,"time":"2025-09-02T06:49:20.701Z","wrapper":1438}
+{"level":"info","msg":"finding process","pid":1438,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:20.701Z","wrapper":1438}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1438,"time":"2025-09-02T06:49:20.701Z","wrapper":1438}
+{"level":"info","msg":"spawning a process","pid":1438,"time":"2025-09-02T06:49:20.701Z","wrapper":1438}
+{"level":"info","msg":"monitoring process","pid":1438,"process":1445,"time":"2025-09-02T06:49:20.705Z","wrapper":1438}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1445,"time":"2025-09-02T06:49:20.959Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1445,"time":"2025-09-02T06:49:20.960Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1445,"time":"2025-09-02T06:49:20.960Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1445,"time":"2025-09-02T06:49:20.960Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1445,"time":"2025-09-02T06:49:20.961Z"}
+{"duration_ms":81,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1445,"time":"2025-09-02T06:49:21.043Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1445,"time":"2025-09-02T06:49:21.043Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1445,"time":"2025-09-02T06:49:21.046Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1445/git-exec-2271756873.d/git","level":"info","msg":"using Git binary","pid":1445,"time":"2025-09-02T06:49:21.046Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1445,"time":"2025-09-02T06:49:21.049Z"}
+{"level":"info","msg":"using Git version","pid":1445,"time":"2025-09-02T06:49:21.049Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1445,"storage":"default","time":"2025-09-02T06:49:21.049Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":1438,"process":1445,"signal":17,"time":"2025-09-02T06:49:21.094Z","wrapper":1438}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1438,"process":1445,"signal":17,"time":"2025-09-02T06:49:21.094Z","wrapper":1438}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1438,"time":"2025-09-02T06:49:21.094Z","wrapper":1438}
+{"level":"error","msg":"wrapper for process shutting down","pid":1438,"process":1445,"time":"2025-09-02T06:49:21.708Z","wrapper":1438}
+{"level":"info","msg":"Wrapper started","pid":1469,"time":"2025-09-02T06:49:21.716Z","wrapper":1469}
+{"level":"info","msg":"finding process","pid":1469,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:21.716Z","wrapper":1469}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1469,"time":"2025-09-02T06:49:21.716Z","wrapper":1469}
+{"level":"info","msg":"spawning a process","pid":1469,"time":"2025-09-02T06:49:21.716Z","wrapper":1469}
+{"level":"info","msg":"monitoring process","pid":1469,"process":1477,"time":"2025-09-02T06:49:21.716Z","wrapper":1469}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1477,"time":"2025-09-02T06:49:21.903Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1477,"time":"2025-09-02T06:49:21.904Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1477,"time":"2025-09-02T06:49:21.904Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1477,"time":"2025-09-02T06:49:21.904Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1477,"time":"2025-09-02T06:49:21.905Z"}
+{"duration_ms":80,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1477,"time":"2025-09-02T06:49:21.986Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1477,"time":"2025-09-02T06:49:21.986Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1477,"time":"2025-09-02T06:49:21.988Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1477/git-exec-2281632501.d/git","level":"info","msg":"using Git binary","pid":1477,"time":"2025-09-02T06:49:21.988Z"}
+{"duration_ms":4,"level":"info","msg":"finished detecting git version","pid":1477,"time":"2025-09-02T06:49:21.992Z"}
+{"level":"info","msg":"using Git version","pid":1477,"time":"2025-09-02T06:49:21.992Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1477,"storage":"default","time":"2025-09-02T06:49:21.992Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1469,"time":"2025-09-02T06:49:22.040Z","wrapper":1469}
+{"level":"warning","msg":"forwarding signal","pid":1469,"process":1477,"signal":17,"time":"2025-09-02T06:49:22.040Z","wrapper":1469}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1469,"process":1477,"signal":17,"time":"2025-09-02T06:49:22.040Z","wrapper":1469}
+{"level":"error","msg":"wrapper for process shutting down","pid":1469,"process":1477,"time":"2025-09-02T06:49:22.719Z","wrapper":1469}
+{"level":"info","msg":"Wrapper started","pid":1510,"time":"2025-09-02T06:49:22.727Z","wrapper":1510}
+{"level":"info","msg":"finding process","pid":1510,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:22.727Z","wrapper":1510}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1510,"time":"2025-09-02T06:49:22.727Z","wrapper":1510}
+{"level":"info","msg":"spawning a process","pid":1510,"time":"2025-09-02T06:49:22.727Z","wrapper":1510}
+{"level":"info","msg":"monitoring process","pid":1510,"process":1517,"time":"2025-09-02T06:49:22.727Z","wrapper":1510}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1517,"time":"2025-09-02T06:49:22.919Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1517,"time":"2025-09-02T06:49:22.920Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1517,"time":"2025-09-02T06:49:22.920Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1517,"time":"2025-09-02T06:49:22.920Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1517,"time":"2025-09-02T06:49:22.921Z"}
+{"duration_ms":85,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1517,"time":"2025-09-02T06:49:23.007Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1517,"time":"2025-09-02T06:49:23.008Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1517,"time":"2025-09-02T06:49:23.010Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1517/git-exec-1677943798.d/git","level":"info","msg":"using Git binary","pid":1517,"time":"2025-09-02T06:49:23.010Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1517,"time":"2025-09-02T06:49:23.013Z"}
+{"level":"info","msg":"using Git version","pid":1517,"time":"2025-09-02T06:49:23.013Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1517,"storage":"default","time":"2025-09-02T06:49:23.014Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1510,"time":"2025-09-02T06:49:23.055Z","wrapper":1510}
+{"level":"warning","msg":"forwarding signal","pid":1510,"process":1517,"signal":17,"time":"2025-09-02T06:49:23.055Z","wrapper":1510}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1510,"process":1517,"signal":17,"time":"2025-09-02T06:49:23.055Z","wrapper":1510}
+{"level":"error","msg":"wrapper for process shutting down","pid":1510,"process":1517,"time":"2025-09-02T06:49:23.729Z","wrapper":1510}
+{"level":"info","msg":"Wrapper started","pid":1569,"time":"2025-09-02T06:49:23.736Z","wrapper":1569}
+{"level":"info","msg":"finding process","pid":1569,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:23.736Z","wrapper":1569}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1569,"time":"2025-09-02T06:49:23.737Z","wrapper":1569}
+{"level":"info","msg":"spawning a process","pid":1569,"time":"2025-09-02T06:49:23.737Z","wrapper":1569}
+{"level":"info","msg":"monitoring process","pid":1569,"process":1576,"time":"2025-09-02T06:49:23.737Z","wrapper":1569}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1576,"time":"2025-09-02T06:49:23.903Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1576,"time":"2025-09-02T06:49:23.904Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1576,"time":"2025-09-02T06:49:23.904Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1576,"time":"2025-09-02T06:49:23.904Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1576,"time":"2025-09-02T06:49:23.905Z"}
+{"duration_ms":80,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1576,"time":"2025-09-02T06:49:23.986Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1576,"time":"2025-09-02T06:49:23.986Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1576,"time":"2025-09-02T06:49:23.988Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1576/git-exec-3507385368.d/git","level":"info","msg":"using Git binary","pid":1576,"time":"2025-09-02T06:49:23.988Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1576,"time":"2025-09-02T06:49:23.991Z"}
+{"level":"info","msg":"using Git version","pid":1576,"time":"2025-09-02T06:49:23.991Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1576,"storage":"default","time":"2025-09-02T06:49:23.991Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1569,"time":"2025-09-02T06:49:24.033Z","wrapper":1569}
+{"level":"warning","msg":"forwarding signal","pid":1569,"process":1576,"signal":17,"time":"2025-09-02T06:49:24.033Z","wrapper":1569}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1569,"process":1576,"signal":17,"time":"2025-09-02T06:49:24.033Z","wrapper":1569}
+{"level":"error","msg":"wrapper for process shutting down","pid":1569,"process":1576,"time":"2025-09-02T06:49:24.740Z","wrapper":1569}
+{"level":"info","msg":"Wrapper started","pid":1611,"time":"2025-09-02T06:49:24.749Z","wrapper":1611}
+{"level":"info","msg":"finding process","pid":1611,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:24.749Z","wrapper":1611}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1611,"time":"2025-09-02T06:49:24.749Z","wrapper":1611}
+{"level":"info","msg":"spawning a process","pid":1611,"time":"2025-09-02T06:49:24.749Z","wrapper":1611}
+{"level":"info","msg":"monitoring process","pid":1611,"process":1619,"time":"2025-09-02T06:49:24.750Z","wrapper":1611}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1619,"time":"2025-09-02T06:49:24.961Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1619,"time":"2025-09-02T06:49:24.961Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1619,"time":"2025-09-02T06:49:24.961Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1619,"time":"2025-09-02T06:49:24.962Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1619,"time":"2025-09-02T06:49:24.963Z"}
+{"duration_ms":121,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1619,"time":"2025-09-02T06:49:25.085Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1619,"time":"2025-09-02T06:49:25.085Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1619,"time":"2025-09-02T06:49:25.087Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1619/git-exec-876348748.d/git","level":"info","msg":"using Git binary","pid":1619,"time":"2025-09-02T06:49:25.087Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1619,"time":"2025-09-02T06:49:25.089Z"}
+{"level":"info","msg":"using Git version","pid":1619,"time":"2025-09-02T06:49:25.089Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1619,"storage":"default","time":"2025-09-02T06:49:25.090Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1611,"time":"2025-09-02T06:49:25.134Z","wrapper":1611}
+{"level":"warning","msg":"forwarding signal","pid":1611,"process":1619,"signal":17,"time":"2025-09-02T06:49:25.134Z","wrapper":1611}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1611,"process":1619,"signal":17,"time":"2025-09-02T06:49:25.134Z","wrapper":1611}
+{"level":"error","msg":"wrapper for process shutting down","pid":1611,"process":1619,"time":"2025-09-02T06:49:25.751Z","wrapper":1611}
+{"level":"info","msg":"Wrapper started","pid":1651,"time":"2025-09-02T06:49:25.758Z","wrapper":1651}
+{"level":"info","msg":"finding process","pid":1651,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:25.758Z","wrapper":1651}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1651,"time":"2025-09-02T06:49:25.758Z","wrapper":1651}
+{"level":"info","msg":"spawning a process","pid":1651,"time":"2025-09-02T06:49:25.758Z","wrapper":1651}
+{"level":"info","msg":"monitoring process","pid":1651,"process":1658,"time":"2025-09-02T06:49:25.759Z","wrapper":1651}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1658,"time":"2025-09-02T06:49:25.934Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1658,"time":"2025-09-02T06:49:25.935Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1658,"time":"2025-09-02T06:49:25.935Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1658,"time":"2025-09-02T06:49:25.935Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1658,"time":"2025-09-02T06:49:25.936Z"}
+{"duration_ms":101,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1658,"time":"2025-09-02T06:49:26.037Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1658,"time":"2025-09-02T06:49:26.037Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1658,"time":"2025-09-02T06:49:26.039Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1658/git-exec-1705804458.d/git","level":"info","msg":"using Git binary","pid":1658,"time":"2025-09-02T06:49:26.039Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1658,"time":"2025-09-02T06:49:26.042Z"}
+{"level":"info","msg":"using Git version","pid":1658,"time":"2025-09-02T06:49:26.042Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1658,"storage":"default","time":"2025-09-02T06:49:26.042Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1651,"time":"2025-09-02T06:49:26.085Z","wrapper":1651}
+{"level":"warning","msg":"forwarding signal","pid":1651,"process":1658,"signal":17,"time":"2025-09-02T06:49:26.085Z","wrapper":1651}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1651,"process":1658,"signal":17,"time":"2025-09-02T06:49:26.085Z","wrapper":1651}
+{"level":"error","msg":"wrapper for process shutting down","pid":1651,"process":1658,"time":"2025-09-02T06:49:26.761Z","wrapper":1651}
+{"level":"info","msg":"Wrapper started","pid":1693,"time":"2025-09-02T06:49:26.768Z","wrapper":1693}
+{"level":"info","msg":"finding process","pid":1693,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:26.768Z","wrapper":1693}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1693,"time":"2025-09-02T06:49:26.768Z","wrapper":1693}
+{"level":"info","msg":"spawning a process","pid":1693,"time":"2025-09-02T06:49:26.768Z","wrapper":1693}
+{"level":"info","msg":"monitoring process","pid":1693,"process":1700,"time":"2025-09-02T06:49:26.768Z","wrapper":1693}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1700,"time":"2025-09-02T06:49:26.948Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1700,"time":"2025-09-02T06:49:26.949Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1700,"time":"2025-09-02T06:49:26.949Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1700,"time":"2025-09-02T06:49:26.949Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1700,"time":"2025-09-02T06:49:26.950Z"}
+{"duration_ms":78,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1700,"time":"2025-09-02T06:49:27.029Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1700,"time":"2025-09-02T06:49:27.030Z"}
+{"duration_ms":4,"level":"info","msg":"finished initializing command factory","pid":1700,"time":"2025-09-02T06:49:27.035Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1700/git-exec-1568092602.d/git","level":"info","msg":"using Git binary","pid":1700,"time":"2025-09-02T06:49:27.035Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1700,"time":"2025-09-02T06:49:27.037Z"}
+{"level":"info","msg":"using Git version","pid":1700,"time":"2025-09-02T06:49:27.037Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1700,"storage":"default","time":"2025-09-02T06:49:27.037Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1693,"time":"2025-09-02T06:49:27.080Z","wrapper":1693}
+{"level":"warning","msg":"forwarding signal","pid":1693,"process":1700,"signal":17,"time":"2025-09-02T06:49:27.080Z","wrapper":1693}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1693,"process":1700,"signal":17,"time":"2025-09-02T06:49:27.080Z","wrapper":1693}
+{"level":"error","msg":"wrapper for process shutting down","pid":1693,"process":1700,"time":"2025-09-02T06:49:27.770Z","wrapper":1693}
+{"level":"info","msg":"Wrapper started","pid":1732,"time":"2025-09-02T06:49:27.786Z","wrapper":1732}
+{"level":"info","msg":"finding process","pid":1732,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:27.786Z","wrapper":1732}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1732,"time":"2025-09-02T06:49:27.786Z","wrapper":1732}
+{"level":"info","msg":"spawning a process","pid":1732,"time":"2025-09-02T06:49:27.786Z","wrapper":1732}
+{"level":"info","msg":"monitoring process","pid":1732,"process":1739,"time":"2025-09-02T06:49:27.789Z","wrapper":1732}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1739,"time":"2025-09-02T06:49:27.999Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1739,"time":"2025-09-02T06:49:27.999Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1739,"time":"2025-09-02T06:49:27.999Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1739,"time":"2025-09-02T06:49:27.999Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1739,"time":"2025-09-02T06:49:28.000Z"}
+{"duration_ms":82,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1739,"time":"2025-09-02T06:49:28.083Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1739,"time":"2025-09-02T06:49:28.083Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1739,"time":"2025-09-02T06:49:28.085Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1739/git-exec-3505736564.d/git","level":"info","msg":"using Git binary","pid":1739,"time":"2025-09-02T06:49:28.085Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1739,"time":"2025-09-02T06:49:28.088Z"}
+{"level":"info","msg":"using Git version","pid":1739,"time":"2025-09-02T06:49:28.089Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1739,"storage":"default","time":"2025-09-02T06:49:28.089Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1732,"time":"2025-09-02T06:49:28.141Z","wrapper":1732}
+{"level":"warning","msg":"forwarding signal","pid":1732,"process":1739,"signal":17,"time":"2025-09-02T06:49:28.141Z","wrapper":1732}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1732,"process":1739,"signal":17,"time":"2025-09-02T06:49:28.142Z","wrapper":1732}
+{"level":"error","msg":"wrapper for process shutting down","pid":1732,"process":1739,"time":"2025-09-02T06:49:28.791Z","wrapper":1732}
+{"level":"info","msg":"Wrapper started","pid":1773,"time":"2025-09-02T06:49:28.806Z","wrapper":1773}
+{"level":"info","msg":"finding process","pid":1773,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:28.806Z","wrapper":1773}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1773,"time":"2025-09-02T06:49:28.806Z","wrapper":1773}
+{"level":"info","msg":"spawning a process","pid":1773,"time":"2025-09-02T06:49:28.806Z","wrapper":1773}
+{"level":"info","msg":"monitoring process","pid":1773,"process":1781,"time":"2025-09-02T06:49:28.806Z","wrapper":1773}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1781,"time":"2025-09-02T06:49:29.021Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1781,"time":"2025-09-02T06:49:29.022Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1781,"time":"2025-09-02T06:49:29.022Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1781,"time":"2025-09-02T06:49:29.022Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1781,"time":"2025-09-02T06:49:29.028Z"}
+{"duration_ms":81,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1781,"time":"2025-09-02T06:49:29.110Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1781,"time":"2025-09-02T06:49:29.112Z"}
+{"duration_ms":2,"level":"info","msg":"finished initializing command factory","pid":1781,"time":"2025-09-02T06:49:29.114Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1781/git-exec-1954345232.d/git","level":"info","msg":"using Git binary","pid":1781,"time":"2025-09-02T06:49:29.118Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1781,"time":"2025-09-02T06:49:29.120Z"}
+{"level":"info","msg":"using Git version","pid":1781,"time":"2025-09-02T06:49:29.121Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1781,"storage":"default","time":"2025-09-02T06:49:29.121Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1773,"time":"2025-09-02T06:49:29.161Z","wrapper":1773}
+{"level":"warning","msg":"forwarding signal","pid":1773,"process":1781,"signal":17,"time":"2025-09-02T06:49:29.161Z","wrapper":1773}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1773,"process":1781,"signal":17,"time":"2025-09-02T06:49:29.161Z","wrapper":1773}
+{"level":"error","msg":"wrapper for process shutting down","pid":1773,"process":1781,"time":"2025-09-02T06:49:29.811Z","wrapper":1773}
+{"level":"info","msg":"Wrapper started","pid":1821,"time":"2025-09-02T06:49:29.818Z","wrapper":1821}
+{"level":"info","msg":"finding process","pid":1821,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:29.818Z","wrapper":1821}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1821,"time":"2025-09-02T06:49:29.818Z","wrapper":1821}
+{"level":"info","msg":"spawning a process","pid":1821,"time":"2025-09-02T06:49:29.818Z","wrapper":1821}
+{"level":"info","msg":"monitoring process","pid":1821,"process":1828,"time":"2025-09-02T06:49:29.819Z","wrapper":1821}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1828,"time":"2025-09-02T06:49:29.987Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1828,"time":"2025-09-02T06:49:29.987Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1828,"time":"2025-09-02T06:49:29.987Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1828,"time":"2025-09-02T06:49:29.987Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1828,"time":"2025-09-02T06:49:29.988Z"}
+{"duration_ms":80,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1828,"time":"2025-09-02T06:49:30.069Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1828,"time":"2025-09-02T06:49:30.069Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1828,"time":"2025-09-02T06:49:30.071Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1828/git-exec-1915601630.d/git","level":"info","msg":"using Git binary","pid":1828,"time":"2025-09-02T06:49:30.071Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1828,"time":"2025-09-02T06:49:30.073Z"}
+{"level":"info","msg":"using Git version","pid":1828,"time":"2025-09-02T06:49:30.073Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1828,"storage":"default","time":"2025-09-02T06:49:30.074Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1821,"time":"2025-09-02T06:49:30.121Z","wrapper":1821}
+{"level":"warning","msg":"forwarding signal","pid":1821,"process":1828,"signal":17,"time":"2025-09-02T06:49:30.121Z","wrapper":1821}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1821,"process":1828,"signal":17,"time":"2025-09-02T06:49:30.121Z","wrapper":1821}
+{"level":"error","msg":"wrapper for process shutting down","pid":1821,"process":1828,"time":"2025-09-02T06:49:30.821Z","wrapper":1821}
+{"level":"info","msg":"Wrapper started","pid":1863,"time":"2025-09-02T06:49:30.828Z","wrapper":1863}
+{"level":"info","msg":"finding process","pid":1863,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:30.828Z","wrapper":1863}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1863,"time":"2025-09-02T06:49:30.828Z","wrapper":1863}
+{"level":"info","msg":"spawning a process","pid":1863,"time":"2025-09-02T06:49:30.828Z","wrapper":1863}
+{"level":"info","msg":"monitoring process","pid":1863,"process":1870,"time":"2025-09-02T06:49:30.829Z","wrapper":1863}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1870,"time":"2025-09-02T06:49:31.017Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1870,"time":"2025-09-02T06:49:31.018Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1870,"time":"2025-09-02T06:49:31.018Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1870,"time":"2025-09-02T06:49:31.018Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1870,"time":"2025-09-02T06:49:31.018Z"}
+{"duration_ms":80,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1870,"time":"2025-09-02T06:49:31.099Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1870,"time":"2025-09-02T06:49:31.099Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1870,"time":"2025-09-02T06:49:31.101Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1870/git-exec-2771416220.d/git","level":"info","msg":"using Git binary","pid":1870,"time":"2025-09-02T06:49:31.101Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1870,"time":"2025-09-02T06:49:31.104Z"}
+{"level":"info","msg":"using Git version","pid":1870,"time":"2025-09-02T06:49:31.104Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1870,"storage":"default","time":"2025-09-02T06:49:31.104Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":1863,"process":1870,"signal":17,"time":"2025-09-02T06:49:31.152Z","wrapper":1863}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1863,"process":1870,"signal":17,"time":"2025-09-02T06:49:31.152Z","wrapper":1863}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1863,"time":"2025-09-02T06:49:31.152Z","wrapper":1863}
+{"level":"error","msg":"wrapper for process shutting down","pid":1863,"process":1870,"time":"2025-09-02T06:49:31.830Z","wrapper":1863}
+{"level":"info","msg":"Wrapper started","pid":1918,"time":"2025-09-02T06:49:31.838Z","wrapper":1918}
+{"level":"info","msg":"finding process","pid":1918,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:31.838Z","wrapper":1918}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1918,"time":"2025-09-02T06:49:31.838Z","wrapper":1918}
+{"level":"info","msg":"spawning a process","pid":1918,"time":"2025-09-02T06:49:31.838Z","wrapper":1918}
+{"level":"info","msg":"monitoring process","pid":1918,"process":1925,"time":"2025-09-02T06:49:31.838Z","wrapper":1918}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1925,"time":"2025-09-02T06:49:32.009Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1925,"time":"2025-09-02T06:49:32.009Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1925,"time":"2025-09-02T06:49:32.009Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1925,"time":"2025-09-02T06:49:32.009Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1925,"time":"2025-09-02T06:49:32.010Z"}
+{"duration_ms":68,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1925,"time":"2025-09-02T06:49:32.078Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1925,"time":"2025-09-02T06:49:32.078Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1925,"time":"2025-09-02T06:49:32.080Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1925/git-exec-2737582410.d/git","level":"info","msg":"using Git binary","pid":1925,"time":"2025-09-02T06:49:32.080Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1925,"time":"2025-09-02T06:49:32.083Z"}
+{"level":"info","msg":"using Git version","pid":1925,"time":"2025-09-02T06:49:32.083Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1925,"storage":"default","time":"2025-09-02T06:49:32.083Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1918,"time":"2025-09-02T06:49:32.125Z","wrapper":1918}
+{"level":"warning","msg":"forwarding signal","pid":1918,"process":1925,"signal":17,"time":"2025-09-02T06:49:32.125Z","wrapper":1918}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1918,"process":1925,"signal":17,"time":"2025-09-02T06:49:32.125Z","wrapper":1918}
+{"level":"error","msg":"wrapper for process shutting down","pid":1918,"process":1925,"time":"2025-09-02T06:49:32.840Z","wrapper":1918}
+{"level":"info","msg":"Wrapper started","pid":1962,"time":"2025-09-02T06:49:32.848Z","wrapper":1962}
+{"level":"info","msg":"finding process","pid":1962,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:32.848Z","wrapper":1962}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1962,"time":"2025-09-02T06:49:32.848Z","wrapper":1962}
+{"level":"info","msg":"spawning a process","pid":1962,"time":"2025-09-02T06:49:32.848Z","wrapper":1962}
+{"level":"info","msg":"monitoring process","pid":1962,"process":1969,"time":"2025-09-02T06:49:32.849Z","wrapper":1962}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":1969,"time":"2025-09-02T06:49:33.051Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":1969,"time":"2025-09-02T06:49:33.052Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":1969,"time":"2025-09-02T06:49:33.052Z"}
+{"level":"info","msg":"Starting Gitaly","pid":1969,"time":"2025-09-02T06:49:33.052Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":1969,"time":"2025-09-02T06:49:33.053Z"}
+{"duration_ms":109,"level":"info","msg":"finished unpacking auxiliary binaries","pid":1969,"time":"2025-09-02T06:49:33.162Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":1969,"time":"2025-09-02T06:49:33.162Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":1969,"time":"2025-09-02T06:49:33.164Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-1969/git-exec-3861484013.d/git","level":"info","msg":"using Git binary","pid":1969,"time":"2025-09-02T06:49:33.164Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":1969,"time":"2025-09-02T06:49:33.167Z"}
+{"level":"info","msg":"using Git version","pid":1969,"time":"2025-09-02T06:49:33.167Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":1969,"storage":"default","time":"2025-09-02T06:49:33.167Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1962,"time":"2025-09-02T06:49:33.210Z","wrapper":1962}
+{"level":"warning","msg":"forwarding signal","pid":1962,"process":1969,"signal":17,"time":"2025-09-02T06:49:33.210Z","wrapper":1962}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1962,"process":1969,"signal":17,"time":"2025-09-02T06:49:33.210Z","wrapper":1962}
+{"level":"error","msg":"wrapper for process shutting down","pid":1962,"process":1969,"time":"2025-09-02T06:49:33.854Z","wrapper":1962}
+{"level":"info","msg":"Wrapper started","pid":1996,"time":"2025-09-02T06:49:33.861Z","wrapper":1996}
+{"level":"info","msg":"finding process","pid":1996,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:33.861Z","wrapper":1996}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1996,"time":"2025-09-02T06:49:33.861Z","wrapper":1996}
+{"level":"info","msg":"spawning a process","pid":1996,"time":"2025-09-02T06:49:33.861Z","wrapper":1996}
+{"level":"info","msg":"monitoring process","pid":1996,"process":2003,"time":"2025-09-02T06:49:33.862Z","wrapper":1996}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":2003,"time":"2025-09-02T06:49:34.033Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":2003,"time":"2025-09-02T06:49:34.033Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":2003,"time":"2025-09-02T06:49:34.033Z"}
+{"level":"info","msg":"Starting Gitaly","pid":2003,"time":"2025-09-02T06:49:34.033Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":2003,"time":"2025-09-02T06:49:34.038Z"}
+{"duration_ms":62,"level":"info","msg":"finished unpacking auxiliary binaries","pid":2003,"time":"2025-09-02T06:49:34.101Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":2003,"time":"2025-09-02T06:49:34.101Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":2003,"time":"2025-09-02T06:49:34.102Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-2003/git-exec-1267532467.d/git","level":"info","msg":"using Git binary","pid":2003,"time":"2025-09-02T06:49:34.102Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":2003,"time":"2025-09-02T06:49:34.105Z"}
+{"level":"info","msg":"using Git version","pid":2003,"time":"2025-09-02T06:49:34.105Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":2003,"storage":"default","time":"2025-09-02T06:49:34.105Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"level":"warning","msg":"forwarding signal","pid":1996,"process":2003,"signal":17,"time":"2025-09-02T06:49:34.149Z","wrapper":1996}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":1996,"process":2003,"signal":17,"time":"2025-09-02T06:49:34.150Z","wrapper":1996}
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":1996,"time":"2025-09-02T06:49:34.149Z","wrapper":1996}
+{"level":"error","msg":"wrapper for process shutting down","pid":1996,"process":2003,"time":"2025-09-02T06:49:34.864Z","wrapper":1996}
+{"level":"info","msg":"Wrapper started","pid":2038,"time":"2025-09-02T06:49:34.871Z","wrapper":2038}
+{"level":"info","msg":"finding process","pid":2038,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:34.871Z","wrapper":2038}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":2038,"time":"2025-09-02T06:49:34.871Z","wrapper":2038}
+{"level":"info","msg":"spawning a process","pid":2038,"time":"2025-09-02T06:49:34.871Z","wrapper":2038}
+{"level":"info","msg":"monitoring process","pid":2038,"process":2045,"time":"2025-09-02T06:49:34.872Z","wrapper":2038}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":2045,"time":"2025-09-02T06:49:35.043Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":2045,"time":"2025-09-02T06:49:35.044Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":2045,"time":"2025-09-02T06:49:35.044Z"}
+{"level":"info","msg":"Starting Gitaly","pid":2045,"time":"2025-09-02T06:49:35.044Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":2045,"time":"2025-09-02T06:49:35.044Z"}
+{"duration_ms":59,"level":"info","msg":"finished unpacking auxiliary binaries","pid":2045,"time":"2025-09-02T06:49:35.104Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":2045,"time":"2025-09-02T06:49:35.105Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":2045,"time":"2025-09-02T06:49:35.106Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-2045/git-exec-218227655.d/git","level":"info","msg":"using Git binary","pid":2045,"time":"2025-09-02T06:49:35.106Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":2045,"time":"2025-09-02T06:49:35.109Z"}
+{"level":"info","msg":"using Git version","pid":2045,"time":"2025-09-02T06:49:35.109Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":2045,"storage":"default","time":"2025-09-02T06:49:35.109Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":2038,"time":"2025-09-02T06:49:35.151Z","wrapper":2038}
+{"level":"warning","msg":"forwarding signal","pid":2038,"process":2045,"signal":17,"time":"2025-09-02T06:49:35.151Z","wrapper":2038}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":2038,"process":2045,"signal":17,"time":"2025-09-02T06:49:35.151Z","wrapper":2038}
+{"level":"error","msg":"wrapper for process shutting down","pid":2038,"process":2045,"time":"2025-09-02T06:49:35.873Z","wrapper":2038}
+{"level":"info","msg":"Wrapper started","pid":2086,"time":"2025-09-02T06:49:35.880Z","wrapper":2086}
+{"level":"info","msg":"finding process","pid":2086,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:35.880Z","wrapper":2086}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":2086,"time":"2025-09-02T06:49:35.880Z","wrapper":2086}
+{"level":"info","msg":"spawning a process","pid":2086,"time":"2025-09-02T06:49:35.880Z","wrapper":2086}
+{"level":"info","msg":"monitoring process","pid":2086,"process":2093,"time":"2025-09-02T06:49:35.880Z","wrapper":2086}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":2093,"time":"2025-09-02T06:49:35.063Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":2093,"time":"2025-09-02T06:49:35.064Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":2093,"time":"2025-09-02T06:49:35.064Z"}
+{"level":"info","msg":"Starting Gitaly","pid":2093,"time":"2025-09-02T06:49:35.064Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":2093,"time":"2025-09-02T06:49:35.065Z"}
+{"duration_ms":86,"level":"info","msg":"finished unpacking auxiliary binaries","pid":2093,"time":"2025-09-02T06:49:35.152Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":2093,"time":"2025-09-02T06:49:35.152Z"}
+{"duration_ms":1,"level":"info","msg":"finished initializing command factory","pid":2093,"time":"2025-09-02T06:49:35.153Z"}
+{"binary_path":"/var/opt/gitlab/gitaly/run/gitaly-2093/git-exec-2139922915.d/git","level":"info","msg":"using Git binary","pid":2093,"time":"2025-09-02T06:49:35.153Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":2093,"time":"2025-09-02T06:49:35.156Z"}
+{"level":"info","msg":"using Git version","pid":2093,"time":"2025-09-02T06:49:35.156Z","version":"2.50.1.gl1"}
+{"level":"info","msg":"clearing disk cache object folder","pid":2093,"storage":"default","time":"2025-09-02T06:49:35.156Z"}
+unclean Gitaly shutdown: disk cache walkers: mkdir /var/opt/gitlab/git-data/repositories/+gitaly/tmp: permission denied
+{"error":"exit status 1","level":"error","msg":"waiting for supervised command","pid":2086,"time":"2025-09-02T06:49:35.200Z","wrapper":2086}
+{"level":"warning","msg":"forwarding signal","pid":2086,"process":2093,"signal":17,"time":"2025-09-02T06:49:35.200Z","wrapper":2086}
+{"error":"os: process already finished","level":"error","msg":"can't forward the signal","pid":2086,"process":2093,"signal":17,"time":"2025-09-02T06:49:35.200Z","wrapper":2086}
+{"level":"error","msg":"wrapper for process shutting down","pid":2086,"process":2093,"time":"2025-09-02T06:49:35.898Z","wrapper":2086}
+{"level":"info","msg":"Wrapper started","pid":2161,"time":"2025-09-02T06:49:36.905Z","wrapper":2161}
+{"level":"info","msg":"finding process","pid":2161,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2025-09-02T06:49:36.905Z","wrapper":2161}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":2161,"time":"2025-09-02T06:49:36.905Z","wrapper":2161}
+{"level":"info","msg":"spawning a process","pid":2161,"time":"2025-09-02T06:49:36.905Z","wrapper":2161}
+{"level":"info","msg":"monitoring process","pid":2161,"process":2168,"time":"2025-09-02T06:49:36.905Z","wrapper":2161}
+{"level":"warning","msg":"The current configurations will cause Gitaly to fail to start up in future versions. Please run 'gitaly configuration validate \u003c /var/opt/gitlab/gitaly/config.toml' and fix the errors that are printed.","pid":2168,"time":"2025-09-02T06:49:37.113Z"}
+{"level":"info","msg":"maxprocs: Leaving GOMAXPROCS=6: CPU quota undefined","pid":2168,"time":"2025-09-02T06:49:37.115Z"}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":2168,"time":"2025-09-02T06:49:37.115Z"}
+{"level":"info","msg":"Starting Gitaly","pid":2168,"time":"2025-09-02T06:49:37.115Z","version":"18.3.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":2168,"time":"2025-09-02T06:49:37.117Z"}

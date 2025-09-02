@@ -1,37 +1,80 @@
 stages:
-  - test
+  - lint
   - build
-  - push
+  - scan
+  - test
+  - infra
   - deploy
-
-variables:
-  IMAGE: registry.gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:$CI_COMMIT_SHORT_SHA
-
-test:
-  stage: test
+helm-lint:
+  stage: lint
+  image: alpine/helm:3.12.0
   script:
-    - pip install -r requirements.txt
-    - pytest -v
-
-build:
-  stage: build
-  script:
-    - docker build -t $IMAGE .
-  tags:
-    - docker
-
-push:
-  stage: push
-  script:
-    - docker push $IMAGE
-  tags:
-    - docker
-
-deploy:
-  stage: deploy
-  script:
-    - helm upgrade --install hello ./helm --set image.repository=registry.gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME --set image.tag=$CI_COMMIT_SHORT_SHA
-  tags:
-    - k8s
+    - helm lint app-web-helm-chart
+    - helm lint gitlab-selfhost/helm-chart
   only:
     - main
+    - master
+
+build-app:
+  stage: build
+  image: docker:24.0.0
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+  script:
+    - docker build -t registry.gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest ./app-web-helm-chart
+    - docker push registry.gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
+  only:
+    - main
+    - master
+
+trivy-scan:
+  stage: scan
+  image:
+    name: aquasec/trivy:0.44.0
+    entrypoint: [""]
+  script:
+    - trivy image --severity HIGH,CRITICAL registry.gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
+  only:
+    - main
+    - master
+terraform-plan:
+  stage: infra
+  image: hashicorp/terraform:1.5.7
+  script:
+    - cd infra
+    - terraform init
+    - terraform fmt -check
+    - terraform validate
+    - terraform plan -out=tfplan
+  only:
+    - main
+    - master
+  environment:
+    name: staging
+terraform-apply:
+  stage: infra
+  image: hashicorp/terraform:1.5.7
+  script:
+    - cd infra
+    - terraform apply -auto-approve tfplan
+  only:
+    - main
+    - master
+  when: manual
+  environment:
+    name: staging
+deploy-helm:
+  stage: deploy
+  image: alpine/helm:3.12.0
+  script:
+    - echo "$KUBECONFIG_CONTENT" > kubeconfig.yaml
+    - export KUBECONFIG=$(pwd)/kubeconfig.yaml
+    - helm upgrade --install hello-app app-web-helm-chart -f app-web-helm-chart/values.yaml
+    - helm upgrade --install gitlab gitlab-selfhost/helm-chart -f gitlab-selfhost/helm-chart/values.yaml
+  only:
+    - main
+    - master
+  environment:
+    name: staging

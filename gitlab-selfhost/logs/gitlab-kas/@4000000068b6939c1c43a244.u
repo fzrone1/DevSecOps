@@ -1,0 +1,87 @@
+2025-09-02_06:49:00.59271 {"time":"2025-09-02T06:49:00.592607132Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:00.59358 {"time":"2025-09-02T06:49:00.593533716Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:00.59360 {"time":"2025-09-02T06:49:00.593552988Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:01.97928 {"time":"2025-09-02T06:49:01.979163116Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:01.98009 {"time":"2025-09-02T06:49:01.980069301Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:01.98014 {"time":"2025-09-02T06:49:01.980116075Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:03.34340 {"time":"2025-09-02T06:49:03.343302516Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:03.34433 {"time":"2025-09-02T06:49:03.34428332Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:03.34435 {"time":"2025-09-02T06:49:03.34432001Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:04.62947 {"time":"2025-09-02T06:49:04.629345569Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:04.63016 {"time":"2025-09-02T06:49:04.630084592Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:04.63017 {"time":"2025-09-02T06:49:04.630102625Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:04.72998 {"time":"2025-09-02T06:49:04.729860662Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:04.73068 {"time":"2025-09-02T06:49:04.730640809Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:04.73069 {"time":"2025-09-02T06:49:04.730663096Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:06.09530 {"time":"2025-09-02T06:49:06.095191342Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:06.09600 {"time":"2025-09-02T06:49:06.095990949Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:06.09604 {"time":"2025-09-02T06:49:06.096031566Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:07.40357 {"time":"2025-09-02T06:49:07.403503783Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:07.40426 {"time":"2025-09-02T06:49:07.404244217Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:07.40431 {"time":"2025-09-02T06:49:07.404281945Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:08.74433 {"time":"2025-09-02T06:49:08.744215731Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:08.74502 {"time":"2025-09-02T06:49:08.745000391Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:08.74503 {"time":"2025-09-02T06:49:08.745011267Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:10.10225 {"time":"2025-09-02T06:49:10.102125579Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:10.10309 {"time":"2025-09-02T06:49:10.103053461Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:10.10310 {"time":"2025-09-02T06:49:10.103078658Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:11.40962 {"time":"2025-09-02T06:49:11.409491352Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:11.41051 {"time":"2025-09-02T06:49:11.410479352Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:11.41053 {"time":"2025-09-02T06:49:11.410515456Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:12.74147 {"time":"2025-09-02T06:49:12.741385914Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:12.74203 {"time":"2025-09-02T06:49:12.742016065Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:12.74204 {"time":"2025-09-02T06:49:12.742030205Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:14.14575 {"time":"2025-09-02T06:49:14.145631355Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:14.14646 {"time":"2025-09-02T06:49:14.146432221Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:14.14647 {"time":"2025-09-02T06:49:14.146444356Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:15.48777 {"time":"2025-09-02T06:49:15.48765568Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:15.48867 {"time":"2025-09-02T06:49:15.488657649Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:15.48874 {"time":"2025-09-02T06:49:15.488699557Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:16.89634 {"time":"2025-09-02T06:49:16.896206521Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:16.89709 {"time":"2025-09-02T06:49:16.897075173Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:16.89710 {"time":"2025-09-02T06:49:16.897090911Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:18.23827 {"time":"2025-09-02T06:49:18.238168491Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:18.23921 {"time":"2025-09-02T06:49:18.239153584Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:18.23923 {"time":"2025-09-02T06:49:18.239192746Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:19.57991 {"time":"2025-09-02T06:49:19.57984052Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:19.58060 {"time":"2025-09-02T06:49:19.580557171Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:19.58061 {"time":"2025-09-02T06:49:19.580580261Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:20.93478 {"time":"2025-09-02T06:49:20.934372813Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:20.93540 {"time":"2025-09-02T06:49:20.935210137Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:20.93541 {"time":"2025-09-02T06:49:20.935221071Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:22.29799 {"time":"2025-09-02T06:49:22.297903674Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:22.29899 {"time":"2025-09-02T06:49:22.298959152Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:22.29901 {"time":"2025-09-02T06:49:22.298969951Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:23.61164 {"time":"2025-09-02T06:49:23.611548533Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:23.61232 {"time":"2025-09-02T06:49:23.612293424Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:23.61234 {"time":"2025-09-02T06:49:23.612314357Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:24.97761 {"time":"2025-09-02T06:49:24.97751233Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:24.98189 {"time":"2025-09-02T06:49:24.981834666Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:24.98190 {"time":"2025-09-02T06:49:24.981874403Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:26.33952 {"time":"2025-09-02T06:49:26.339408675Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:26.34086 {"time":"2025-09-02T06:49:26.340836521Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:26.34088 {"time":"2025-09-02T06:49:26.340852231Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:27.66628 {"time":"2025-09-02T06:49:27.666168033Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:27.66719 {"time":"2025-09-02T06:49:27.667176391Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:27.66723 {"time":"2025-09-02T06:49:27.667212121Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:29.01569 {"time":"2025-09-02T06:49:29.015581316Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:29.01705 {"time":"2025-09-02T06:49:29.016960178Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:29.01707 {"time":"2025-09-02T06:49:29.016972191Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:30.37053 {"time":"2025-09-02T06:49:30.370436057Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:30.37114 {"time":"2025-09-02T06:49:30.371124369Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:30.37115 {"time":"2025-09-02T06:49:30.371136658Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:31.74095 {"time":"2025-09-02T06:49:31.740859887Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:31.74155 {"time":"2025-09-02T06:49:31.741533867Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:31.74156 {"time":"2025-09-02T06:49:31.741545727Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:33.12180 {"time":"2025-09-02T06:49:33.121719888Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:33.12265 {"time":"2025-09-02T06:49:33.122626132Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:33.12266 {"time":"2025-09-02T06:49:33.122637655Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:34.42297 {"time":"2025-09-02T06:49:34.422865054Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:34.42361 {"time":"2025-09-02T06:49:34.423565001Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:34.42363 {"time":"2025-09-02T06:49:34.42360434Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:35.72362 {"time":"2025-09-02T06:49:35.723525715Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:35.72422 {"time":"2025-09-02T06:49:35.72419565Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:35.72422 {"time":"2025-09-02T06:49:35.724206682Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}
+2025-09-02_06:49:36.04898 {"time":"2025-09-02T06:49:36.048886221Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v18.3.1/v18.3.1"}
+2025-09-02_06:49:36.04975 {"time":"2025-09-02T06:49:36.049673652Z","level":"INFO","msg":"KAS shutdown done, exiting"}
+2025-09-02_06:49:36.04977 {"time":"2025-09-02T06:49:36.049697525Z","level":"ERROR","msg":"Program aborted","error":"redis client: dial unix /var/opt/gitlab/redis/redis.socket: connect: connection refused"}

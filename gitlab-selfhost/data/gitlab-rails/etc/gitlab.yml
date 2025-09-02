@@ -358,7 +358,7 @@ production: &base
   ## Container Registry
   registry:
     enabled: true
-    host: 172.19.149.236
+    host: gitlab
     port: 5050
     api_url: http://127.0.0.1:5000 # internal address to the registry, will be used by GitLab to directly communicate with API
     path: /var/opt/gitlab/gitlab-rails/shared/registry
