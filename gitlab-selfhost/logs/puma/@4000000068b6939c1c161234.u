@@ -1,0 +1,109 @@
+2025-09-02_06:49:08.35200 {"timestamp":"2025-09-02T06:49:07.728Z","pid":777,"message":"Puma starting in cluster mode..."}
+2025-09-02_06:49:08.35207 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"* Puma version: 6.6.1 (\"Return to Forever\")"}
+2025-09-02_06:49:08.35207 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"* Ruby version: ruby 3.2.8 (2025-03-26 revision 13f495dc2c) [x86_64-linux]"}
+2025-09-02_06:49:08.35207 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*  Min threads: 4"}
+2025-09-02_06:49:08.35208 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*  Max threads: 4"}
+2025-09-02_06:49:08.35208 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*  Environment: production"}
+2025-09-02_06:49:08.35208 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*   Master PID: 777"}
+2025-09-02_06:49:08.35209 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*      Workers: 6"}
+2025-09-02_06:49:08.35209 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"*     Restarts: (✔) hot (✖) phased (✖) refork"}
+2025-09-02_06:49:08.35209 {"timestamp":"2025-09-02T06:49:07.747Z","pid":777,"message":"* Preloading application"}
+2025-09-02_06:49:24.14628 Rails Error: Unable to access log file. Please ensure that /opt/gitlab/embedded/service/gitlab-rails/log/production.log exists and is writable (i.e. make it writable for user and group: chmod 0664 /opt/gitlab/embedded/service/gitlab-rails/log/production.log). The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+2025-09-02_06:49:25.25176 {"timestamp":"2025-09-02T06:49:25.251Z","pid":777,"message":"! Unable to load application: Errno::EACCES: Permission denied @ rb_sysopen - /opt/gitlab/embedded/service/gitlab-rails/log/application_json.log"}
+2025-09-02_06:49:25.25196 bundler: failed to load command: puma (/opt/gitlab/embedded/bin/puma)
+2025-09-02_06:49:25.25234 /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger/log_device.rb:121:in `initialize': Permission denied @ rb_sysopen - /opt/gitlab/embedded/service/gitlab-rails/log/application_json.log (Errno::EACCES)
+2025-09-02_06:49:25.25234 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger/log_device.rb:121:in `open'
+2025-09-02_06:49:25.25235 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger/log_device.rb:121:in `open_logfile'
+2025-09-02_06:49:25.25235 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger/log_device.rb:87:in `set_dev'
+2025-09-02_06:49:25.25236 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger/log_device.rb:23:in `initialize'
+2025-09-02_06:49:25.25236 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger.rb:610:in `new'
+2025-09-02_06:49:25.25236 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/logger-1.7.0/lib/logger.rb:610:in `initialize'
+2025-09-02_06:49:25.25237 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/gitlab-labkit-0.39.0/lib/labkit/logging/json_logger.rb:36:in `initialize'
+2025-09-02_06:49:25.25237 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/json_logger.rb:33:in `new'
+2025-09-02_06:49:25.25238 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/json_logger.rb:33:in `build'
+2025-09-02_06:49:25.25239 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:22:in `block in info'
+2025-09-02_06:49:25.25239 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:22:in `each'
+2025-09-02_06:49:25.25240 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/multi_destination_logger.rb:22:in `info'
+2025-09-02_06:49:25.25240 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/sli_config.rb:21:in `register'
+2025-09-02_06:49:25.25240 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/sli_config.rb:28:in `puma_enabled!'
+2025-09-02_06:49:25.25241 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/requests_rack_middleware.rb:8:in `<class:RequestsRackMiddleware>'
+2025-09-02_06:49:25.25243 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/requests_rack_middleware.rb:5:in `<module:Metrics>'
+2025-09-02_06:49:25.25243 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/requests_rack_middleware.rb:4:in `<module:Gitlab>'
+2025-09-02_06:49:25.25244 	from /opt/gitlab/embedded/service/gitlab-rails/lib/gitlab/metrics/requests_rack_middleware.rb:3:in `<top (required)>'
+2025-09-02_06:49:25.25245 	from <internal:/opt/gitlab/embedded/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-09-02_06:49:25.25245 	from <internal:/opt/gitlab/embedded/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-09-02_06:49:25.25245 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/zeitwerk-2.6.7/lib/zeitwerk/kernel.rb:30:in `require'
+2025-09-02_06:49:25.25246 	from /opt/gitlab/embedded/service/gitlab-rails/config/initializers/7_prometheus_metrics.rb:54:in `block in <top (required)>'
+2025-09-02_06:49:25.25246 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/railtie.rb:257:in `instance_eval'
+2025-09-02_06:49:25.25247 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/railtie.rb:257:in `configure'
+2025-09-02_06:49:25.25247 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/railtie.rb:191:in `configure'
+2025-09-02_06:49:25.25247 	from /opt/gitlab/embedded/service/gitlab-rails/config/initializers/7_prometheus_metrics.rb:52:in `<top (required)>'
+2025-09-02_06:49:25.25248 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:690:in `load'
+2025-09-02_06:49:25.25249 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:690:in `block in load_config_initializer'
+2025-09-02_06:49:25.25249 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/activesupport-7.1.5.1/lib/active_support/notifications.rb:208:in `instrument'
+2025-09-02_06:49:25.25250 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:689:in `load_config_initializer'
+2025-09-02_06:49:25.25250 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:643:in `block (2 levels) in <class:Engine>'
+2025-09-02_06:49:25.25250 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:642:in `each'
+2025-09-02_06:49:25.25251 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/engine.rb:642:in `block in <class:Engine>'
+2025-09-02_06:49:25.25251 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:32:in `instance_exec'
+2025-09-02_06:49:25.25252 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:32:in `run'
+2025-09-02_06:49:25.25253 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:61:in `block in run_initializers'
+2025-09-02_06:49:25.25253 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:228:in `block in tsort_each'
+2025-09-02_06:49:25.25253 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2025-09-02_06:49:25.25254 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:422:in `block (2 levels) in each_strongly_connected_component_from'
+2025-09-02_06:49:25.25254 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2025-09-02_06:49:25.25254 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:421:in `block in each_strongly_connected_component_from'
+2025-09-02_06:49:25.25255 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:50:in `each'
+2025-09-02_06:49:25.25255 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:50:in `tsort_each_child'
+2025-09-02_06:49:25.25256 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:415:in `call'
+2025-09-02_06:49:25.25256 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:415:in `each_strongly_connected_component_from'
+2025-09-02_06:49:25.25258 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2025-09-02_06:49:25.25258 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:347:in `each'
+2025-09-02_06:49:25.25258 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:347:in `call'
+2025-09-02_06:49:25.25259 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:347:in `each_strongly_connected_component'
+2025-09-02_06:49:25.25259 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:226:in `tsort_each'
+2025-09-02_06:49:25.25259 	from /opt/gitlab/embedded/lib/ruby/3.2.0/tsort.rb:205:in `tsort_each'
+2025-09-02_06:49:25.25260 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/initializable.rb:60:in `run_initializers'
+2025-09-02_06:49:25.25260 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/railties-7.1.5.1/lib/rails/application.rb:426:in `initialize!'
+2025-09-02_06:49:25.25261 	from /opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:7:in `<top (required)>'
+2025-09-02_06:49:25.25261 	from <internal:/opt/gitlab/embedded/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-09-02_06:49:25.25261 	from <internal:/opt/gitlab/embedded/lib/ruby/site_ruby/3.2.0/rubygems/core_ext/kernel_require.rb>:37:in `require'
+2025-09-02_06:49:25.25262 	from /opt/gitlab/embedded/service/gitlab-rails/config.ru:5:in `block in <main>'
+2025-09-02_06:49:25.25263 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-2.2.17/lib/rack/builder.rb:116:in `eval'
+2025-09-02_06:49:25.25263 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-2.2.17/lib/rack/builder.rb:116:in `new_from_string'
+2025-09-02_06:49:25.25264 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-2.2.17/lib/rack/builder.rb:105:in `load_file'
+2025-09-02_06:49:25.25264 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-2.2.17/lib/rack/builder.rb:66:in `parse_file'
+2025-09-02_06:49:25.25264 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/configuration.rb:386:in `load_rackup'
+2025-09-02_06:49:25.25265 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/configuration.rb:297:in `app'
+2025-09-02_06:49:25.25265 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/runner.rb:169:in `load_and_bind'
+2025-09-02_06:49:25.25265 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/cluster.rb:383:in `run'
+2025-09-02_06:49:25.25266 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/launcher.rb:203:in `run'
+2025-09-02_06:49:25.25267 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/lib/puma/cli.rb:75:in `run'
+2025-09-02_06:49:25.25267 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/puma-6.6.1/bin/puma:10:in `<top (required)>'
+2025-09-02_06:49:25.25268 	from /opt/gitlab/embedded/bin/puma:25:in `load'
+2025-09-02_06:49:25.25268 	from /opt/gitlab/embedded/bin/puma:25:in `<top (required)>'
+2025-09-02_06:49:25.25269 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:59:in `load'
+2025-09-02_06:49:25.25269 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:59:in `kernel_load'
+2025-09-02_06:49:25.25269 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli/exec.rb:23:in `run'
+2025-09-02_06:49:25.25270 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli.rb:451:in `exec'
+2025-09-02_06:49:25.25270 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+2025-09-02_06:49:25.25270 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+2025-09-02_06:49:25.25271 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+2025-09-02_06:49:25.25272 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli.rb:35:in `dispatch'
+2025-09-02_06:49:25.25273 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+2025-09-02_06:49:25.25273 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/cli.rb:29:in `start'
+2025-09-02_06:49:25.25274 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/exe/bundle:28:in `block in <top (required)>'
+2025-09-02_06:49:25.25274 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+2025-09-02_06:49:25.25274 	from /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/bundler-2.7.1/exe/bundle:20:in `<top (required)>'
+2025-09-02_06:49:25.25275 	from /opt/gitlab/embedded/bin/bundle:25:in `load'
+2025-09-02_06:49:25.25275 	from /opt/gitlab/embedded/bin/bundle:25:in `<main>'
+2025-09-02_06:49:27.73773 {"timestamp":"2025-09-02T06:49:27.721Z","pid":1640,"message":"Puma starting in cluster mode..."}
+2025-09-02_06:49:27.73786 {"timestamp":"2025-09-02T06:49:27.737Z","pid":1640,"message":"* Puma version: 6.6.1 (\"Return to Forever\")"}
+2025-09-02_06:49:27.73792 {"timestamp":"2025-09-02T06:49:27.737Z","pid":1640,"message":"* Ruby version: ruby 3.2.8 (2025-03-26 revision 13f495dc2c) [x86_64-linux]"}
+2025-09-02_06:49:27.73796 {"timestamp":"2025-09-02T06:49:27.737Z","pid":1640,"message":"*  Min threads: 4"}
+2025-09-02_06:49:27.73805 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"*  Max threads: 4"}
+2025-09-02_06:49:27.73810 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"*  Environment: production"}
+2025-09-02_06:49:27.73816 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"*   Master PID: 1640"}
+2025-09-02_06:49:27.73821 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"*      Workers: 6"}
+2025-09-02_06:49:27.73833 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"*     Restarts: (✔) hot (✖) phased (✖) refork"}
+2025-09-02_06:49:27.73840 {"timestamp":"2025-09-02T06:49:27.738Z","pid":1640,"message":"* Preloading application"}

@@ -1,0 +1,291 @@
+# Logfile created on 2025-09-02 06:49:45 +0000 by logger.rb/v1.7.0
+[2025-09-02T06:49:46+00:00] INFO: Started Cinc Zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded (One version per cookbook)
+[2025-09-02T06:49:46+00:00] INFO: *** Cinc Client 18.3.0 ***
+[2025-09-02T06:49:46+00:00] INFO: Platform: x86_64-linux
+[2025-09-02T06:49:46+00:00] INFO: Cinc-client pid: 33
+[2025-09-02T06:49:46+00:00] INFO: Setting the run_list to ["recipe[gitlab-base]"] from CLI options
+[2025-09-02T06:49:46+00:00] INFO: Run List is [recipe[gitlab-base]]
+[2025-09-02T06:49:46+00:00] INFO: Run List expands to [gitlab-base]
+[2025-09-02T06:49:46+00:00] INFO: Starting Cinc Client Run for gitlab
+[2025-09-02T06:49:46+00:00] INFO: Running start handlers
+[2025-09-02T06:49:46+00:00] INFO: Start handlers complete.
+[2025-09-02T06:49:47+00:00] INFO: Loading cookbooks [gitlab-base@0.1.0, package@0.1.0, gitlab@0.0.1, runit@5.1.7, logrotate@0.1.0, postgresql@0.1.0, redis@0.1.0, monitoring@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.1.0, gitaly@0.1.0, praefect@0.1.0, gitlab-kas@0.1.0, gitlab-pages@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, acme@4.1.6, crond@0.1.0]
+[2025-09-02T06:49:48+00:00] INFO: Generating default secrets
+[2025-09-02T06:49:49+00:00] INFO: Generating /etc/gitlab/gitlab-secrets.json file
+[2025-09-02T06:49:49+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] INFO: Skipped selecting an init system because it was explicitly disabled
+[2025-09-02T06:49:49+00:00] WARN: gitlab-shell does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-sshd does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: logrotate does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: logrotate does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: puma does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-shell does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-workhorse does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-pages does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-kas does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitaly does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: mailroom does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitaly does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: postgresql does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: postgresql does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-kas does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: puma does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: sidekiq does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-workhorse does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: registry does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: gitlab-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: redis-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: prometheus does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: alertmanager does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:49+00:00] WARN: postgres-exporter does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:50+00:00] WARN: only_if block for file[/var/opt/gitlab/gitlab-rails/etc/gitlab-registry.key] returned a string, did you mean to run a command?
+[2025-09-02T06:49:51+00:00] WARN: only_if block for templatesymlink[Create a gitlab_pages_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2025-09-02T06:49:51+00:00] WARN: only_if block for templatesymlink[Create a gitlab_kas_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2025-09-02T06:49:51+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2025-09-02T06:49:51+00:00] WARN: redis does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:51+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2025-09-02T06:49:51+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2025-09-02T06:49:52+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/supervise/status] owner changed to 996
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/supervise/status] group changed to 996
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/supervise/status] updated atime and mtime to 2025-09-02 06:49:52 +0000
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/log/supervise/status] owner changed to 996
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/log/supervise/status] group changed to 996
+[2025-09-02T06:49:52+00:00] INFO: file[/opt/gitlab/service/postgresql/log/supervise/status] updated atime and mtime to 2025-09-02 06:49:52 +0000
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/gitlab-kas] created
+[2025-09-02T06:49:53+00:00] WARN: gitlab-rails does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/puma] created
+[2025-09-02T06:49:53+00:00] WARN: sidekiq does not have a log_group or default logdir mode defined. Setting to 0700.
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/registry] created
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/gitlab-exporter] created
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/etc/redis-exporter/env] created directory /opt/gitlab/etc/redis-exporter/env
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/etc/redis-exporter/env] owner changed to 997
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/etc/redis-exporter/env] mode changed to 700
+[2025-09-02T06:49:53+00:00] INFO: file[/opt/gitlab/etc/redis-exporter/env/SSL_CERT_DIR] created file /opt/gitlab/etc/redis-exporter/env/SSL_CERT_DIR
+[2025-09-02T06:49:53+00:00] INFO: file[/opt/gitlab/etc/redis-exporter/env/SSL_CERT_DIR] updated file contents /opt/gitlab/etc/redis-exporter/env/SSL_CERT_DIR
+[2025-09-02T06:49:53+00:00] INFO: file[/opt/gitlab/etc/redis-exporter/env/GODEBUG] created file /opt/gitlab/etc/redis-exporter/env/GODEBUG
+[2025-09-02T06:49:53+00:00] INFO: file[/opt/gitlab/etc/redis-exporter/env/GODEBUG] updated file contents /opt/gitlab/etc/redis-exporter/env/GODEBUG
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter] created directory /opt/gitlab/sv/redis-exporter
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] created file /opt/gitlab/sv/redis-exporter/run
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] updated file contents /opt/gitlab/sv/redis-exporter/run
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log] created directory /opt/gitlab/sv/redis-exporter/log
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log/main] created directory /opt/gitlab/sv/redis-exporter/log/main
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log/main] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log/main] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/log/main] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] created file /opt/gitlab/sv/redis-exporter/log/config
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] updated file contents /opt/gitlab/sv/redis-exporter/log/config
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] mode changed to 644
+[2025-09-02T06:49:53+00:00] INFO: ruby_block[verify_chown_persisted_on_redis-exporter] sent create action to ruby_block[verify_chown_persisted_on_redis-exporter] (immediate at declaration time)
+[2025-09-02T06:49:53+00:00] INFO: ruby_block[verify_chown_persisted_on_redis-exporter] called
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] created file /opt/gitlab/sv/redis-exporter/log/run
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] updated file contents /opt/gitlab/sv/redis-exporter/log/run
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/env] created directory /opt/gitlab/sv/redis-exporter/env
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/env] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/env] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/env] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/control] created directory /opt/gitlab/sv/redis-exporter/control
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/control] owner changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/control] group changed to 0
+[2025-09-02T06:49:53+00:00] INFO: directory[/opt/gitlab/sv/redis-exporter/control] mode changed to 755
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/init/redis-exporter] created
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/run] sending run action to ruby_block[restart_service] (delayed)
+[2025-09-02T06:49:53+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/config] sending create action to ruby_block[reload_log_service] (delayed)
+[2025-09-02T06:49:53+00:00] INFO: link[/opt/gitlab/service/redis-exporter] created
+[2025-09-02T06:49:54+00:00] INFO: ruby_block[wait for redis-exporter service socket] called
+[2025-09-02T06:49:55+00:00] INFO: ruby_block[reload_log_service] called
+[2025-09-02T06:49:55+00:00] INFO: template[/opt/gitlab/sv/redis-exporter/log/run] sending run action to ruby_block[restart_log_service] (delayed)
+[2025-09-02T06:49:56+00:00] INFO: ruby_block[restart_log_service] called
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/etc/prometheus/env] created directory /opt/gitlab/etc/prometheus/env
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/etc/prometheus/env] owner changed to 992
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/etc/prometheus/env] mode changed to 700
+[2025-09-02T06:49:56+00:00] INFO: file[/opt/gitlab/etc/prometheus/env/SSL_CERT_DIR] created file /opt/gitlab/etc/prometheus/env/SSL_CERT_DIR
+[2025-09-02T06:49:56+00:00] INFO: file[/opt/gitlab/etc/prometheus/env/SSL_CERT_DIR] updated file contents /opt/gitlab/etc/prometheus/env/SSL_CERT_DIR
+[2025-09-02T06:49:56+00:00] INFO: file[/opt/gitlab/etc/prometheus/env/GODEBUG] created file /opt/gitlab/etc/prometheus/env/GODEBUG
+[2025-09-02T06:49:56+00:00] INFO: file[/opt/gitlab/etc/prometheus/env/GODEBUG] updated file contents /opt/gitlab/etc/prometheus/env/GODEBUG
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus] created directory /opt/gitlab/sv/prometheus
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] created file /opt/gitlab/sv/prometheus/run
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] updated file contents /opt/gitlab/sv/prometheus/run
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log] created directory /opt/gitlab/sv/prometheus/log
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log/main] created directory /opt/gitlab/sv/prometheus/log/main
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log/main] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log/main] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/log/main] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] created file /opt/gitlab/sv/prometheus/log/config
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] updated file contents /opt/gitlab/sv/prometheus/log/config
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] mode changed to 644
+[2025-09-02T06:49:56+00:00] INFO: ruby_block[verify_chown_persisted_on_prometheus] sent create action to ruby_block[verify_chown_persisted_on_prometheus] (immediate at declaration time)
+[2025-09-02T06:49:56+00:00] INFO: ruby_block[verify_chown_persisted_on_prometheus] called
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] created file /opt/gitlab/sv/prometheus/log/run
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] updated file contents /opt/gitlab/sv/prometheus/log/run
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/env] created directory /opt/gitlab/sv/prometheus/env
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/env] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/env] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/env] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/control] created directory /opt/gitlab/sv/prometheus/control
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/control] owner changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/control] group changed to 0
+[2025-09-02T06:49:56+00:00] INFO: directory[/opt/gitlab/sv/prometheus/control] mode changed to 755
+[2025-09-02T06:49:56+00:00] INFO: link[/opt/gitlab/init/prometheus] created
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/run] sending run action to ruby_block[restart_service] (delayed)
+[2025-09-02T06:49:56+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/config] sending create action to ruby_block[reload_log_service] (delayed)
+[2025-09-02T06:49:56+00:00] INFO: link[/opt/gitlab/service/prometheus] created
+[2025-09-02T06:50:00+00:00] INFO: ruby_block[wait for prometheus service socket] called
+[2025-09-02T06:50:00+00:00] INFO: ruby_block[reload_log_service] called
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/prometheus/log/run] sending run action to ruby_block[restart_log_service] (delayed)
+[2025-09-02T06:50:00+00:00] INFO: ruby_block[restart_log_service] called
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/etc/alertmanager/env] created directory /opt/gitlab/etc/alertmanager/env
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/etc/alertmanager/env] owner changed to 992
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/etc/alertmanager/env] mode changed to 700
+[2025-09-02T06:50:00+00:00] INFO: file[/opt/gitlab/etc/alertmanager/env/SSL_CERT_DIR] created file /opt/gitlab/etc/alertmanager/env/SSL_CERT_DIR
+[2025-09-02T06:50:00+00:00] INFO: file[/opt/gitlab/etc/alertmanager/env/SSL_CERT_DIR] updated file contents /opt/gitlab/etc/alertmanager/env/SSL_CERT_DIR
+[2025-09-02T06:50:00+00:00] INFO: file[/opt/gitlab/etc/alertmanager/env/GODEBUG] created file /opt/gitlab/etc/alertmanager/env/GODEBUG
+[2025-09-02T06:50:00+00:00] INFO: file[/opt/gitlab/etc/alertmanager/env/GODEBUG] updated file contents /opt/gitlab/etc/alertmanager/env/GODEBUG
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager] created directory /opt/gitlab/sv/alertmanager
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] created file /opt/gitlab/sv/alertmanager/run
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] updated file contents /opt/gitlab/sv/alertmanager/run
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log] created directory /opt/gitlab/sv/alertmanager/log
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log/main] created directory /opt/gitlab/sv/alertmanager/log/main
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log/main] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log/main] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/log/main] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] created file /opt/gitlab/sv/alertmanager/log/config
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] updated file contents /opt/gitlab/sv/alertmanager/log/config
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] mode changed to 644
+[2025-09-02T06:50:00+00:00] INFO: ruby_block[verify_chown_persisted_on_alertmanager] sent create action to ruby_block[verify_chown_persisted_on_alertmanager] (immediate at declaration time)
+[2025-09-02T06:50:00+00:00] INFO: ruby_block[verify_chown_persisted_on_alertmanager] called
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] created file /opt/gitlab/sv/alertmanager/log/run
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] updated file contents /opt/gitlab/sv/alertmanager/log/run
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/env] created directory /opt/gitlab/sv/alertmanager/env
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/env] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/env] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/env] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/control] created directory /opt/gitlab/sv/alertmanager/control
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/control] owner changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/control] group changed to 0
+[2025-09-02T06:50:00+00:00] INFO: directory[/opt/gitlab/sv/alertmanager/control] mode changed to 755
+[2025-09-02T06:50:00+00:00] INFO: link[/opt/gitlab/init/alertmanager] created
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/run] sending run action to ruby_block[restart_service] (delayed)
+[2025-09-02T06:50:00+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/config] sending create action to ruby_block[reload_log_service] (delayed)
+[2025-09-02T06:50:00+00:00] INFO: link[/opt/gitlab/service/alertmanager] created
+[2025-09-02T06:50:01+00:00] INFO: ruby_block[wait for alertmanager service socket] called
+[2025-09-02T06:50:01+00:00] INFO: ruby_block[reload_log_service] called
+[2025-09-02T06:50:01+00:00] INFO: template[/opt/gitlab/sv/alertmanager/log/run] sending run action to ruby_block[restart_log_service] (delayed)
+[2025-09-02T06:50:01+00:00] INFO: ruby_block[restart_log_service] called
+[2025-09-02T06:50:01+00:00] INFO: directory[/opt/gitlab/etc/postgres-exporter/env] created directory /opt/gitlab/etc/postgres-exporter/env
+[2025-09-02T06:50:01+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/SSL_CERT_DIR] created file /opt/gitlab/etc/postgres-exporter/env/SSL_CERT_DIR
+[2025-09-02T06:50:01+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/SSL_CERT_DIR] updated file contents /opt/gitlab/etc/postgres-exporter/env/SSL_CERT_DIR
+[2025-09-02T06:50:02+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/GODEBUG] created file /opt/gitlab/etc/postgres-exporter/env/GODEBUG
+[2025-09-02T06:50:02+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/GODEBUG] updated file contents /opt/gitlab/etc/postgres-exporter/env/GODEBUG
+[2025-09-02T06:50:02+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/DATA_SOURCE_NAME] created file /opt/gitlab/etc/postgres-exporter/env/DATA_SOURCE_NAME
+[2025-09-02T06:50:02+00:00] INFO: file[/opt/gitlab/etc/postgres-exporter/env/DATA_SOURCE_NAME] updated file contents /opt/gitlab/etc/postgres-exporter/env/DATA_SOURCE_NAME
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter] created directory /opt/gitlab/sv/postgres-exporter
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] created file /opt/gitlab/sv/postgres-exporter/run
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] updated file contents /opt/gitlab/sv/postgres-exporter/run
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log] created directory /opt/gitlab/sv/postgres-exporter/log
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log/main] created directory /opt/gitlab/sv/postgres-exporter/log/main
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log/main] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log/main] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/log/main] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] created file /opt/gitlab/sv/postgres-exporter/log/config
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] updated file contents /opt/gitlab/sv/postgres-exporter/log/config
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] mode changed to 644
+[2025-09-02T06:50:02+00:00] INFO: ruby_block[verify_chown_persisted_on_postgres-exporter] sent create action to ruby_block[verify_chown_persisted_on_postgres-exporter] (immediate at declaration time)
+[2025-09-02T06:50:02+00:00] INFO: ruby_block[verify_chown_persisted_on_postgres-exporter] called
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] created file /opt/gitlab/sv/postgres-exporter/log/run
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] updated file contents /opt/gitlab/sv/postgres-exporter/log/run
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/env] created directory /opt/gitlab/sv/postgres-exporter/env
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/env] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/env] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/env] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/control] created directory /opt/gitlab/sv/postgres-exporter/control
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/control] owner changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/control] group changed to 0
+[2025-09-02T06:50:02+00:00] INFO: directory[/opt/gitlab/sv/postgres-exporter/control] mode changed to 755
+[2025-09-02T06:50:02+00:00] INFO: link[/opt/gitlab/init/postgres-exporter] created
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/run] sending run action to ruby_block[restart_service] (delayed)
+[2025-09-02T06:50:02+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/config] sending create action to ruby_block[reload_log_service] (delayed)
+[2025-09-02T06:50:02+00:00] INFO: link[/opt/gitlab/service/postgres-exporter] created
+[2025-09-02T06:50:04+00:00] INFO: ruby_block[wait for postgres-exporter service socket] called
+[2025-09-02T06:50:05+00:00] INFO: ruby_block[reload_log_service] called
+[2025-09-02T06:50:05+00:00] INFO: template[/opt/gitlab/sv/postgres-exporter/log/run] sending run action to ruby_block[restart_log_service] (delayed)
+[2025-09-02T06:50:05+00:00] INFO: ruby_block[restart_log_service] called
+[2025-09-02T06:50:05+00:00] INFO: group[git] managed: remove existing member(s): gitlab-backup
+[2025-09-02T06:50:05+00:00] INFO: group[gitlab-psql] managed: remove existing member(s): gitlab-backup
+[2025-09-02T06:50:05+00:00] INFO: group[registry] managed: remove existing member(s): gitlab-backup
+[2025-09-02T06:50:05+00:00] INFO: env_dir[/opt/gitlab/etc/redis-exporter/env] sending restart action to runit_service[redis-exporter] (delayed)
+[2025-09-02T06:50:06+00:00] INFO: env_dir[/opt/gitlab/etc/prometheus/env] sending restart action to runit_service[prometheus] (delayed)
+[2025-09-02T06:50:06+00:00] INFO: env_dir[/opt/gitlab/etc/alertmanager/env] sending restart action to runit_service[alertmanager] (delayed)
+[2025-09-02T06:50:07+00:00] INFO: env_dir[/opt/gitlab/etc/postgres-exporter/env] sending restart action to runit_service[postgres-exporter] (delayed)
+[2025-09-02T06:50:07+00:00] ERROR: Running exception handlers
+[2025-09-02T06:50:07+00:00] ERROR: Exception handlers complete
+[2025-09-02T06:50:07+00:00] FATAL: Stacktrace dumped to /opt/gitlab/embedded/cookbooks/cache/cinc-stacktrace.out
+[2025-09-02T06:50:07+00:00] FATAL: ---------------------------------------------------------------------------------------
+[2025-09-02T06:50:07+00:00] FATAL: PLEASE PROVIDE THE CONTENTS OF THE stacktrace.out FILE (above) IF YOU FILE A BUG REPORT
+[2025-09-02T06:50:07+00:00] FATAL: ---------------------------------------------------------------------------------------
+[2025-09-02T06:50:07+00:00] FATAL: Mixlib::ShellOut::ShellCommandFailed: runit_service[alertmanager] (monitoring::alertmanager line 77) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of /opt/gitlab/embedded/bin/sv restart /opt/gitlab/service/alertmanager ----
+STDOUT: timeout: down: /opt/gitlab/service/alertmanager: 0s, normally up, want up
+STDERR: 
+---- End output of /opt/gitlab/embedded/bin/sv restart /opt/gitlab/service/alertmanager ----
+Ran /opt/gitlab/embedded/bin/sv restart /opt/gitlab/service/alertmanager returned 1

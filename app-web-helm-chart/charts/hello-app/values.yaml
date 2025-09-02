@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: registry.gitlab.com/root/devsecops.git
+  tag: latest
+
+service:
+  type: NodePort
+  port: 5000

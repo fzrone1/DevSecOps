@@ -1,0 +1,1 @@
+2025-09-02_07:00:05.14191 error: Ignoring logrotate.conf because the file owner is wrong (should be root or user with uid 0).
