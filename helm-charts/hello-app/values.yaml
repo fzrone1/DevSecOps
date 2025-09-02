@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: registry.gitlab.com/root/http://127.0.0.1:8099
+  tag: latest
+
+service:
+  type: NodePort
+  port: 5000
