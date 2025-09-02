@@ -1,0 +1,16 @@
+2025-09-01_15:49:34.46396 {"timestamp":"2025-09-01T15:49:34.445Z","pid":495,"message":"Puma starting in cluster mode..."}
+2025-09-01_15:49:34.46409 {"timestamp":"2025-09-01T15:49:34.463Z","pid":495,"message":"* Puma version: 6.6.1 (\"Return to Forever\")"}
+2025-09-01_15:49:34.46410 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"* Ruby version: ruby 3.2.8 (2025-03-26 revision 13f495dc2c) [x86_64-linux]"}
+2025-09-01_15:49:34.46415 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*  Min threads: 4"}
+2025-09-01_15:49:34.46421 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*  Max threads: 4"}
+2025-09-01_15:49:34.46427 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*  Environment: production"}
+2025-09-01_15:49:34.46434 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*   Master PID: 495"}
+2025-09-01_15:49:34.46441 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*      Workers: 6"}
+2025-09-01_15:49:34.46450 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"*     Restarts: (✔) hot (✖) phased (✖) refork"}
+2025-09-01_15:49:34.46455 {"timestamp":"2025-09-01T15:49:34.464Z","pid":495,"message":"* Preloading application"}
+2025-09-01_15:50:17.49657 {"timestamp":"2025-09-01T15:50:17.496Z","pid":495,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2025-09-01_15:50:17.49677 {"timestamp":"2025-09-01T15:50:17.496Z","pid":495,"message":"* Listening on http://127.0.0.1:8080"}
+2025-09-01_15:50:17.49683 {"timestamp":"2025-09-01T15:50:17.496Z","pid":495,"message":"! WARNING: Detected 2 Thread(s) started in app boot:"}
+2025-09-01_15:50:17.49695 {"timestamp":"2025-09-01T15:50:17.496Z","pid":495,"message":"! #\u003cThread:0x00007fba79dd19f0 /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-timeout-0.7.0/lib/rack/timeout/support/scheduler.rb:72 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-timeout-0.7.0/lib/rack/timeout/support/scheduler.rb:90:in `sleep'"}
+2025-09-01_15:50:17.49709 {"timestamp":"2025-09-01T15:50:17.496Z","pid":495,"message":"! #\u003cThread:0x00007fba79c2dbf8 /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/sentry-ruby-5.23.0/lib/sentry/threaded_periodic_worker.rb:18 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/sentry-ruby-5.23.0/lib/sentry/threaded_periodic_worker.rb:20:in `sleep'"}
+2025-09-01_15:50:17.49725 {"timestamp":"2025-09-01T15:50:17.497Z","pid":495,"message":"Use Ctrl-C to stop"}

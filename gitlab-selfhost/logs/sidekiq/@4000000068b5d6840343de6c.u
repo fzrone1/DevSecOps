@@ -1,0 +1,2 @@
+{"severity":"INFO","time":"2025-09-01T17:22:37.520Z","message":"Starting cluster with 1 processes"}
+{"severity":"INFO","time":"2025-09-01T17:22:37.537Z","message":"Starting metrics server on port 8082"}

@@ -1,0 +1,49 @@
+{"timestamp":"2025-09-02T00:53:21.965Z","pid":366,"message":"! Terminating timed out worker (Worker 3 failed to check in within 60 seconds): 2225"}
+{"timestamp":"2025-09-02T00:53:21.973Z","pid":366,"message":"! Terminating timed out worker (Worker 4 failed to check in within 60 seconds): 2227"}
+{"timestamp":"2025-09-02T00:53:21.974Z","pid":366,"message":"! Terminating timed out worker (Worker 1 failed to check in within 60 seconds): 2229"}
+{"timestamp":"2025-09-02T00:53:21.975Z","pid":366,"message":"! Terminating timed out worker (Worker 5 failed to check in within 60 seconds): 2231"}
+{"timestamp":"2025-09-02T00:53:21.975Z","pid":366,"message":"! Terminating timed out worker (Worker 2 failed to check in within 60 seconds): 2232"}
+{"timestamp":"2025-09-02T00:53:24.881Z","pid":366,"message":"- Worker 2 (PID: 4992) booted in 2.77s, phase: 0"}
+{"timestamp":"2025-09-02T00:53:24.881Z","pid":366,"message":"- Worker 5 (PID: 4999) booted in 2.73s, phase: 0"}
+{"timestamp":"2025-09-02T00:53:24.882Z","pid":366,"message":"- Worker 4 (PID: 4994) booted in 2.75s, phase: 0"}
+{"timestamp":"2025-09-02T00:53:24.882Z","pid":366,"message":"- Worker 1 (PID: 4991) booted in 2.79s, phase: 0"}
+{"timestamp":"2025-09-02T00:53:24.882Z","pid":366,"message":"- Worker 3 (PID: 4993) booted in 2.76s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:55.859Z","pid":366,"message":"! Terminating timed out worker (Worker 0 failed to check in within 60 seconds): 573"}
+{"timestamp":"2025-09-02T01:03:55.966Z","pid":366,"message":"! Terminating timed out worker (Worker 1 failed to check in within 60 seconds): 4991"}
+{"timestamp":"2025-09-02T01:03:55.982Z","pid":366,"message":"! Terminating timed out worker (Worker 2 failed to check in within 60 seconds): 4992"}
+{"timestamp":"2025-09-02T01:03:55.987Z","pid":366,"message":"! Terminating timed out worker (Worker 3 failed to check in within 60 seconds): 4993"}
+{"timestamp":"2025-09-02T01:03:55.988Z","pid":366,"message":"! Terminating timed out worker (Worker 4 failed to check in within 60 seconds): 4994"}
+{"timestamp":"2025-09-02T01:03:55.988Z","pid":366,"message":"! Terminating timed out worker (Worker 5 failed to check in within 60 seconds): 4999"}
+{"timestamp":"2025-09-02T01:03:58.122Z","pid":366,"message":"- Worker 1 (PID: 5334) booted in 1.83s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:58.200Z","pid":366,"message":"- Worker 3 (PID: 5340) booted in 1.81s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:58.201Z","pid":366,"message":"- Worker 5 (PID: 5332) booted in 1.93s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:58.223Z","pid":366,"message":"- Worker 2 (PID: 5336) booted in 1.9s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:58.226Z","pid":366,"message":"- Worker 4 (PID: 5338) booted in 1.87s, phase: 0"}
+{"timestamp":"2025-09-02T01:03:58.252Z","pid":366,"message":"- Worker 0 (PID: 5342) booted in 1.82s, phase: 0"}
+{"timestamp":"2025-09-02T02:19:04.001Z","pid":366,"message":"! Terminating timed out worker (Worker 5 failed to check in within 60 seconds): 5332"}
+{"timestamp":"2025-09-02T02:19:04.002Z","pid":366,"message":"! Terminating timed out worker (Worker 2 failed to check in within 60 seconds): 5336"}
+{"timestamp":"2025-09-02T02:19:04.002Z","pid":366,"message":"! Terminating timed out worker (Worker 4 failed to check in within 60 seconds): 5338"}
+{"timestamp":"2025-09-02T02:19:04.002Z","pid":366,"message":"! Terminating timed out worker (Worker 3 failed to check in within 60 seconds): 5340"}
+{"timestamp":"2025-09-02T02:19:04.002Z","pid":366,"message":"! Terminating timed out worker (Worker 0 failed to check in within 60 seconds): 5342"}
+{"timestamp":"2025-09-02T02:19:04.780Z","pid":366,"message":"- Worker 2 (PID: 5453) booted in 0.7s, phase: 0"}
+{"timestamp":"2025-09-02T02:19:04.824Z","pid":366,"message":"- Worker 5 (PID: 5458) booted in 0.71s, phase: 0"}
+{"timestamp":"2025-09-02T02:19:04.831Z","pid":366,"message":"- Worker 0 (PID: 5455) booted in 0.74s, phase: 0"}
+{"timestamp":"2025-09-02T02:19:04.831Z","pid":366,"message":"- Worker 3 (PID: 5451) booted in 0.76s, phase: 0"}
+{"timestamp":"2025-09-02T02:19:04.958Z","pid":366,"message":"- Worker 4 (PID: 5457) booted in 0.85s, phase: 0"}
+{"timestamp":"2025-09-02T02:27:56.788Z","pid":366,"message":"! Terminating timed out worker (Worker 3 failed to check in within 60 seconds): 5451"}
+{"timestamp":"2025-09-02T02:27:56.788Z","pid":366,"message":"! Terminating timed out worker (Worker 2 failed to check in within 60 seconds): 5453"}
+{"timestamp":"2025-09-02T02:27:56.788Z","pid":366,"message":"! Terminating timed out worker (Worker 0 failed to check in within 60 seconds): 5455"}
+{"timestamp":"2025-09-02T02:27:56.789Z","pid":366,"message":"! Terminating timed out worker (Worker 4 failed to check in within 60 seconds): 5457"}
+{"timestamp":"2025-09-02T02:27:56.789Z","pid":366,"message":"! Terminating timed out worker (Worker 5 failed to check in within 60 seconds): 5458"}
+{"timestamp":"2025-09-02T02:27:57.407Z","pid":366,"message":"- Worker 3 (PID: 5752) booted in 0.53s, phase: 0"}
+{"timestamp":"2025-09-02T02:27:57.427Z","pid":366,"message":"- Worker 0 (PID: 5750) booted in 0.56s, phase: 0"}
+{"timestamp":"2025-09-02T02:27:57.431Z","pid":366,"message":"- Worker 5 (PID: 5754) booted in 0.54s, phase: 0"}
+{"timestamp":"2025-09-02T02:27:57.460Z","pid":366,"message":"- Worker 4 (PID: 5758) booted in 0.54s, phase: 0"}
+{"timestamp":"2025-09-02T02:27:57.503Z","pid":366,"message":"- Worker 2 (PID: 5756) booted in 0.6s, phase: 0"}
+=== puma startup: 2025-09-02 02:46:29 +0000 ===
+{"timestamp":"2025-09-02T02:46:29.697Z","pid":494,"message":"- Worker 3 (PID: 703) booted in 0.35s, phase: 0"}
+{"timestamp":"2025-09-02T02:46:29.706Z","pid":494,"message":"- Worker 0 (PID: 697) booted in 0.39s, phase: 0"}
+{"timestamp":"2025-09-02T02:46:29.754Z","pid":494,"message":"- Worker 2 (PID: 701) booted in 0.42s, phase: 0"}
+{"timestamp":"2025-09-02T02:46:29.768Z","pid":494,"message":"- Worker 4 (PID: 705) booted in 0.4s, phase: 0"}
+{"timestamp":"2025-09-02T02:46:29.774Z","pid":494,"message":"- Worker 5 (PID: 706) booted in 0.39s, phase: 0"}
+{"timestamp":"2025-09-02T02:46:29.806Z","pid":494,"message":"- Worker 1 (PID: 699) booted in 0.48s, phase: 0"}

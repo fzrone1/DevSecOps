@@ -1,0 +1,51 @@
+[0KRunning with gitlab-runner 18.3.0 (9ba718cd)[0;m
+[0K  on devsecops fcFk6duyo, system ID: r_jIA6zZmDnSXq[0;m
+section_start:1756780727:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m[0;m
+[0KUsing Docker executor with image docker:latest ...[0;m
+[0KStarting service docker:dind...[0;m
+[0KUsing effective pull policy of [always] for container docker:dind[0;m
+[0KPulling docker image docker:dind ...[0;m
+[0KUsing docker image sha256:685c712776973f1da71a81b6f60932ef6163de05c38342fe1892c50c16df744e for docker:dind with digest docker@sha256:a56b3bdde89315ed2cc0e4906e582b5033d93bf20d9cb9510c2cdd4e7f7690b1 ...[0;m
+[0KWaiting for services to be up and running (timeout 30 seconds)...[0;m
+
+[0;33m*** WARNING:[0;m Service runner-fcfk6duyo-project-1-concurrent-0-32835f50c269abb1-docker-0 probably didn't start properly.
+
+Health check error:
+start service container: Error response from daemon: Cannot link to a non running container: /runner-fcfk6duyo-project-1-concurrent-0-32835f50c269abb1-docker-0 AS /runner-fcfk6duyo-project-1-concurrent-0-32835f50c269abb1-docker-0-wait-for-service/service (services.go:215:0s)
+
+Service container logs:
+2025-09-02T02:39:06.288109545Z ip: can't find device 'nf_tables'
+2025-09-02T02:39:06.290630238Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-02T02:39:06.293291663Z ip: can't find device 'ip_tables'
+2025-09-02T02:39:06.294970599Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-02T02:39:06.296207274Z ip: can't find device 'ip6_tables'
+2025-09-02T02:39:06.297658989Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-02T02:39:06.306212918Z iptables v1.8.11 (nf_tables)
+2025-09-02T02:39:06.311694779Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KUsing effective pull policy of [always] for container docker:latest[0;m
+[0KPulling docker image docker:latest ...[0;m
+[0KUsing docker image sha256:685c712776973f1da71a81b6f60932ef6163de05c38342fe1892c50c16df744e for docker:latest with digest docker@sha256:a56b3bdde89315ed2cc0e4906e582b5033d93bf20d9cb9510c2cdd4e7f7690b1 ...[0;m
+section_end:1756780749:prepare_executor[0Ksection_start:1756780749:prepare_script[0K[0K[36;1mPreparing environment[0;m[0;m
+[0KUsing effective pull policy of [always] for container sha256:c909dca3aaaed2a2f10fa96499aee4c9f51fb469c8e8ec2a96059c2172d6b72c[0;m
+Running on runner-fcfk6duyo-project-1-concurrent-0 via 17367063b981...
+section_end:1756780750:prepare_script[0Ksection_start:1756780750:get_sources[0K[0K[36;1mGetting source from Git repository[0;m[0;m
+[32;1mGitaly correlation ID: 01K444N2ZNBYV0X88DNGR1GP5B[0;m
+[32;1mFetching changes with git depth set to 20...[0;m
+Reinitialized existing Git repository in /builds/root/devsecops/.git/
+[32;1mCreated fresh repository.[0;m
+[32;1mChecking out 55ac4b0c as detached HEAD (ref is master)...[0;m
+
+[32;1mSkipping Git submodules setup[0;m
+section_end:1756780751:get_sources[0Ksection_start:1756780751:step_script[0K[0K[36;1mExecuting "step_script" stage of the job script[0;m[0;m
+[0KUsing effective pull policy of [always] for container docker:latest[0;m
+[0KUsing docker image sha256:685c712776973f1da71a81b6f60932ef6163de05c38342fe1892c50c16df744e for docker:latest with digest docker@sha256:a56b3bdde89315ed2cc0e4906e582b5033d93bf20d9cb9510c2cdd4e7f7690b1 ...[0;m
+[32;1m$ sleep 5[0;m
+[32;1m$ echo "$CI_JOB_TOKEN" | docker login -u gitlab-ci-token --password-stdin $REGISTRY_URL[0;m
+time="2025-09-02T02:39:18Z" level=info msg="Error logging in to endpoint, trying next endpoint" endpoint="{false https://gitlab:5050 false false false 0xc000430780}" error="Get \"https://gitlab:5050/v2/\": dial tcp: lookup gitlab on 8.8.8.8:53: no such host"
+Get "https://gitlab:5050/v2/": dial tcp: lookup gitlab on 8.8.8.8:53: no such host
+section_end:1756780758:step_script[0Ksection_start:1756780758:cleanup_file_variables[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1756780759:cleanup_file_variables[0K[31;1mERROR: Job failed: exit code 1
+[0;m

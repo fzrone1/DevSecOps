@@ -1,0 +1,28 @@
+version: '3.6'
+
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    container_name: gitlab
+    restart: always
+    hostname: 'gitlab'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://172.19.149.236:8099'
+        gitlab_rails['gitlab_shell_ssh_port'] = 2224
+        registry_external_url 'http://172.19.149.236:5050'
+    ports:
+      - "8099:8099"
+#      - "443:443"
+      - "2224:22"
+      - "5050:5050"
+    volumes:
+      - ./config:/etc/gitlab
+      - ./logs:/var/log/gitlab
+      - ./data:/var/opt/gitlab
+    networks:
+      - devsecops-net
+
+networks:
+  devsecops-net:
+    driver: bridge

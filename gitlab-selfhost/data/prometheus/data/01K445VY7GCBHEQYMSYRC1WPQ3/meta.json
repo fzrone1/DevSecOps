@@ -1,0 +1,17 @@
+{
+	"ulid": "01K445VY7GCBHEQYMSYRC1WPQ3",
+	"minTime": 1756771200000,
+	"maxTime": 1756778400000,
+	"stats": {
+		"numSamples": 10902594,
+		"numSeries": 51211,
+		"numChunks": 151908
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01K445VY7GCBHEQYMSYRC1WPQ3"
+		]
+	},
+	"version": 1
+}

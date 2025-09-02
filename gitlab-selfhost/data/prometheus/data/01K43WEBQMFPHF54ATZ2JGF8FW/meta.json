@@ -1,0 +1,17 @@
+{
+	"ulid": "01K43WEBQMFPHF54ATZ2JGF8FW",
+	"minTime": 1756761318099,
+	"maxTime": 1756764000000,
+	"stats": {
+		"numSamples": 20,
+		"numSeries": 20,
+		"numChunks": 20
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01K43WEBQMFPHF54ATZ2JGF8FW"
+		]
+	},
+	"version": 1
+}

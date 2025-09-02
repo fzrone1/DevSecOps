@@ -1,0 +1,73 @@
+2025-09-01_13:45:23.58886 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit
+2025-09-01_13:45:23.59094 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-09-01_13:45:23.59696 LOG:  database system was shut down at 2025-09-01 13:45:22 GMT
+2025-09-01_13:45:23.60264 LOG:  database system is ready to accept connections
+2025-09-01_13:45:28.48281 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:28.48288 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:28.48288 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:28.58467 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:28.58470 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:28.58470 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:28.68284 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:28.68286 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:28.68287 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:29.09954 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:29.09956 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:29.09956 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:29.26517 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:29.26520 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:29.26520 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:29.59947 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_13:45:29.59950 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_13:45:29.59951 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_13:45:51.78386 ERROR:  relation "feature_gates" does not exist at character 523
+2025-09-01_13:45:51.78388 STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2025-09-01_13:45:51.78389 	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2025-09-01_13:45:51.78389 	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+2025-09-01_13:45:51.78389 	       attidentity AS identity,
+2025-09-01_13:45:51.78389 	       attgenerated as attgenerated
+2025-09-01_13:45:51.78390 	  FROM pg_attribute a
+2025-09-01_13:45:51.78390 	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2025-09-01_13:45:51.78390 	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+2025-09-01_13:45:51.78390 	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2025-09-01_13:45:51.78390 	 WHERE a.attrelid = '"feature_gates"'::regclass
+2025-09-01_13:45:51.78391 	   AND a.attnum > 0 AND NOT a.attisdropped
+2025-09-01_13:45:51.78391 	 ORDER BY a.attnum
+2025-09-01_13:45:51.78391 	
+2025-09-01_13:46:03.15012 LOG:  duration: 2849.184 ms  statement: COMMIT
+2025-09-01_13:58:46.99968 LOG:  duration: 2112.744 ms  statement: SELECT
+2025-09-01_13:58:46.99976 	  usename AS usename,
+2025-09-01_13:58:46.99977 	  a.matches[1] AS application,
+2025-09-01_13:58:46.99978 	  a.matches[2] AS endpoint,
+2025-09-01_13:58:46.99978 	  a.matches[3] AS command,
+2025-09-01_13:58:46.99979 	  a.wait_event AS wait_event,
+2025-09-01_13:58:46.99982 	  a.state AS state,
+2025-09-01_13:58:46.99983 	  a.wait_event_type AS wait_event_type,
+2025-09-01_13:58:46.99984 	  COUNT(*) active_count,
+2025-09-01_13:58:46.99984 	 MAX(coalesce(age_in_seconds, 0)) AS max_tx_age_in_seconds
+2025-09-01_13:58:46.99985 	FROM (
+2025-09-01_13:58:46.99986 	  SELECT
+2025-09-01_13:58:46.99986 	    usename,
+2025-09-01_13:58:46.99987 	    regexp_matches(query, '^\s*(?:\/\*(?:application:(\w+),?)?(?:correlation_id:\w+,?)?(?:jid:\w+,?)?(?:endpoint_id:([\w/\-\.:\#\s]+),?)?.*?\*\/)?\s*(\w+)') AS matches,
+2025-09-01_13:58:46.99988 	    state,
+2025-09-01_13:58:46.99989 	    wait_event,
+2025-09-01_13:58:46.99990 	    wait_event_type,
+2025-09-01_13:58:46.99990 	    EXTRACT(EPOCH FROM (clock_timestamp() - xact_start)) AS age_in_seconds
+2025-09-01_13:58:46.99991 	  FROM
+2025-09-01_13:58:46.99992 	    pg_stat_activity
+2025-09-01_13:58:46.99993 	  ) a
+2025-09-01_13:58:46.99993 	GROUP BY usename, application, endpoint, command, state, wait_event, wait_event_type ORDER BY active_count DESC
+2025-09-01_13:58:46.99994 	
+2025-09-01_13:58:47.01597 LOG:  duration: 2156.707 ms  statement: SELECT
+2025-09-01_13:58:47.01604 			current_database() datname,
+2025-09-01_13:58:47.01605 			schemaname,
+2025-09-01_13:58:47.01605 			relname,
+2025-09-01_13:58:47.01606 			heap_blks_read,
+2025-09-01_13:58:47.01607 			heap_blks_hit,
+2025-09-01_13:58:47.01608 			idx_blks_read,
+2025-09-01_13:58:47.01608 			idx_blks_hit,
+2025-09-01_13:58:47.01609 			toast_blks_read,
+2025-09-01_13:58:47.01610 			toast_blks_hit,
+2025-09-01_13:58:47.01611 			tidx_blks_read,
+2025-09-01_13:58:47.01611 			tidx_blks_hit
+2025-09-01_13:58:47.01612 		FROM pg_statio_user_tables

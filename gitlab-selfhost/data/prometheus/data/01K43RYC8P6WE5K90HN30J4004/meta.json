@@ -1,0 +1,17 @@
+{
+	"ulid": "01K43RYC8P6WE5K90HN30J4004",
+	"minTime": 1756749602361,
+	"maxTime": 1756756800000,
+	"stats": {
+		"numSamples": 2215095,
+		"numSeries": 48117,
+		"numChunks": 48117
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01K43RYC8P6WE5K90HN30J4004"
+		]
+	},
+	"version": 1
+}

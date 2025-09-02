@@ -1,0 +1,63 @@
+[0KRunning with gitlab-runner 18.3.0 (9ba718cd)[0;m
+[0K  on devops ET6Pgvf4s, system ID: r_IcypqJYchyXa[0;m
+section_start:1756743580:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m[0;m
+[0KUsing Docker executor with image docker:latest ...[0;m
+[0KStarting service docker:dind...[0;m
+[0KUsing effective pull policy of [always] for container docker:dind[0;m
+[0KPulling docker image docker:dind ...[0;m
+[0KUsing docker image sha256:b2a8bf985f76be7345c0c827c568db287ccb4dfad919a4693488224e3644fb0c for docker:dind with digest docker@sha256:c0872aae4791ff427e6eda52769afa04f17b5cf756f8267e0d52774c99d5c9de ...[0;m
+[0KWaiting for services to be up and running (timeout 30 seconds)...[0;m
+
+[0;33m*** WARNING:[0;m Service runner-et6pgvf4s-project-1-concurrent-0-a61e12124f24bb51-docker-0 probably didn't start properly.
+
+Health check error:
+service "runner-et6pgvf4s-project-1-concurrent-0-a61e12124f24bb51-docker-0-wait-for-service" timeout
+
+Health check container logs:
+2025-09-01T16:19:46.032695949Z waiting for TCP connection to 172.17.0.3 on [2375 2376]...
+2025-09-01T16:19:46.032755251Z dialing 172.17.0.3:2376...
+2025-09-01T16:19:46.032893441Z dialing 172.17.0.3:2375...
+2025-09-01T16:19:47.033389336Z dialing 172.17.0.3:2376...
+2025-09-01T16:19:47.033442817Z dialing 172.17.0.3:2375...
+
+Service container logs:
+2025-09-01T16:19:46.446821152Z Certificate request self-signature ok
+2025-09-01T16:19:46.446903088Z subject=CN=docker:dind server
+2025-09-01T16:19:46.462897223Z /certs/server/cert.pem: OK
+2025-09-01T16:19:46.588837544Z Certificate request self-signature ok
+2025-09-01T16:19:46.588864886Z subject=CN=docker:dind client
+2025-09-01T16:19:46.605158840Z /certs/client/cert.pem: OK
+2025-09-01T16:19:46.612123951Z ip: can't find device 'nf_tables'
+2025-09-01T16:19:46.613561192Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T16:19:46.616023071Z ip: can't find device 'ip_tables'
+2025-09-01T16:19:46.617373015Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T16:19:46.618533915Z ip: can't find device 'ip6_tables'
+2025-09-01T16:19:46.619913265Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T16:19:46.622540768Z iptables v1.8.11 (nf_tables)
+2025-09-01T16:19:46.625650440Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KUsing effective pull policy of [always] for container docker:latest[0;m
+[0KPulling docker image docker:latest ...[0;m
+[0KUsing docker image sha256:b2a8bf985f76be7345c0c827c568db287ccb4dfad919a4693488224e3644fb0c for docker:latest with digest docker@sha256:c0872aae4791ff427e6eda52769afa04f17b5cf756f8267e0d52774c99d5c9de ...[0;m
+section_end:1756743620:prepare_executor[0Ksection_start:1756743620:prepare_script[0K[0K[36;1mPreparing environment[0;m[0;m
+[0KUsing effective pull policy of [always] for container sha256:c909dca3aaaed2a2f10fa96499aee4c9f51fb469c8e8ec2a96059c2172d6b72c[0;m
+Running on runner-et6pgvf4s-project-1-concurrent-0 via 01d950ce02bd...
+section_end:1756743621:prepare_script[0Ksection_start:1756743621:get_sources[0K[0K[36;1mGetting source from Git repository[0;m[0;m
+[32;1mGitaly correlation ID: 01K4317DPQYWHC1GQ07TMRVK6K[0;m
+[32;1mFetching changes with git depth set to 20...[0;m
+Reinitialized existing Git repository in /builds/root/devsecops/.git/
+[32;1mCreated fresh repository.[0;m
+[32;1mChecking out ca00f39c as detached HEAD (ref is master)...[0;m
+
+[32;1mSkipping Git submodules setup[0;m
+section_end:1756743623:get_sources[0Ksection_start:1756743623:step_script[0K[0K[36;1mExecuting "step_script" stage of the job script[0;m[0;m
+[0KUsing effective pull policy of [always] for container docker:latest[0;m
+[0KUsing docker image sha256:b2a8bf985f76be7345c0c827c568db287ccb4dfad919a4693488224e3644fb0c for docker:latest with digest docker@sha256:c0872aae4791ff427e6eda52769afa04f17b5cf756f8267e0d52774c99d5c9de ...[0;m
+[32;1m$ docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY[0;m
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Get "https://172.19.149.236:5050/v2/": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+section_end:1756743639:step_script[0Ksection_start:1756743639:cleanup_file_variables[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1756743639:cleanup_file_variables[0K[31;1mERROR: Job failed: exit code 1
+[0;m

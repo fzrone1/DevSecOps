@@ -1,0 +1,60 @@
+[0KRunning with gitlab-runner 18.3.0 (9ba718cd)[0;m
+[0K  on devsecops uk_6JSC9Z, system ID: r_IcypqJYchyXa[0;m
+section_start:1756742019:prepare_executor[0K[0K[36;1mPreparing the "docker" executor[0;m[0;m
+[0KUsing Docker executor with image docker:latest ...[0;m
+[0KStarting service docker:dind...[0;m
+[0KUsing effective pull policy of [always] for container docker:dind[0;m
+[0KPulling docker image docker:dind ...[0;m
+[0KUsing docker image sha256:b2a8bf985f76be7345c0c827c568db287ccb4dfad919a4693488224e3644fb0c for docker:dind with digest docker@sha256:c0872aae4791ff427e6eda52769afa04f17b5cf756f8267e0d52774c99d5c9de ...[0;m
+[0KWaiting for services to be up and running (timeout 30 seconds)...[0;m
+
+[0;33m*** WARNING:[0;m Service runner-uk6jsc9z-project-1-concurrent-0-cd07696c2279af55-docker-0 probably didn't start properly.
+
+Health check error:
+service "runner-uk6jsc9z-project-1-concurrent-0-cd07696c2279af55-docker-0-wait-for-service" timeout
+
+Health check container logs:
+2025-09-01T15:53:48.437693706Z waiting for TCP connection to 172.17.0.3 on [2375 2376]...
+2025-09-01T15:53:48.437970752Z dialing 172.17.0.3:2376...
+2025-09-01T15:53:48.437999727Z dialing 172.17.0.3:2375...
+2025-09-01T15:53:49.438509111Z dialing 172.17.0.3:2376...
+2025-09-01T15:53:49.438744969Z dialing 172.17.0.3:2375...
+2025-09-01T15:53:50.439229360Z dialing 172.17.0.3:2376...
+2025-09-01T15:53:50.439415356Z dialing 172.17.0.3:2375...
+2025-09-01T15:53:51.439874090Z dialing 172.17.0.3:2375...
+2025-09-01T15:53:51.439922963Z dialing 172.17.0.3:2376...
+
+Service container logs:
+2025-09-01T15:53:49.636142489Z Certificate request self-signature ok
+2025-09-01T15:53:49.636243180Z subject=CN=docker:dind server
+2025-09-01T15:53:49.668381905Z /certs/server/cert.pem: OK
+2025-09-01T15:53:51.030476008Z Certificate request self-signature ok
+2025-09-01T15:53:51.030538947Z subject=CN=docker:dind client
+2025-09-01T15:53:51.063934485Z /certs/client/cert.pem: OK
+2025-09-01T15:53:51.080665410Z ip: can't find device 'nf_tables'
+2025-09-01T15:53:51.084331990Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T15:53:51.088762046Z ip: can't find device 'ip_tables'
+2025-09-01T15:53:51.092297382Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T15:53:51.094943548Z ip: can't find device 'ip6_tables'
+2025-09-01T15:53:51.097973344Z modprobe: can't change directory to '/lib/modules': No such file or directory
+2025-09-01T15:53:51.103183451Z iptables v1.8.11 (nf_tables)
+2025-09-01T15:53:51.112646736Z mount: permission denied (are you root?)
+
+[0;33m*********[0;m
+
+[0KUsing effective pull policy of [always] for container docker:latest[0;m
+[0KPulling docker image docker:latest ...[0;m
+[0KUsing docker image sha256:b2a8bf985f76be7345c0c827c568db287ccb4dfad919a4693488224e3644fb0c for docker:latest with digest docker@sha256:c0872aae4791ff427e6eda52769afa04f17b5cf756f8267e0d52774c99d5c9de ...[0;m
+section_end:1756742062:prepare_executor[0Ksection_start:1756742062:prepare_script[0K[0K[36;1mPreparing environment[0;m[0;m
+[0KUsing effective pull policy of [always] for container sha256:c909dca3aaaed2a2f10fa96499aee4c9f51fb469c8e8ec2a96059c2172d6b72c[0;m
+Running on runner-uk6jsc9z-project-1-concurrent-0 via 01d950ce02bd...
+section_end:1756742064:prepare_script[0Ksection_start:1756742064:get_sources[0K[0K[36;1mGetting source from Git repository[0;m[0;m
+[32;1mGitaly correlation ID: 01K42ZQSA3YDYRTKTA0AX99CDX[0;m
+[32;1mFetching changes with git depth set to 20...[0;m
+Reinitialized existing Git repository in /builds/root/devsecops/.git/
+[32;1mCreated fresh repository.[0;m
+fatal: unable to access 'http://127.0.0.1:8099/root/devsecops.git/': Failed to connect to 127.0.0.1 port 8099 after 0 ms: Could not connect to server
+section_end:1756742066:get_sources[0K[32;1mRetrying in 5s[0;m
+section_start:1756742071:cleanup_file_variables[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1756742072:cleanup_file_variables[0K[31;1mERROR: Job failed: exit code 1
+[0;m

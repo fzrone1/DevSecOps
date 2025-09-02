@@ -1,0 +1,17 @@
+{
+	"ulid": "01K443GWAC4711GX69C7K64458",
+	"minTime": 1756768329286,
+	"maxTime": 1756771200000,
+	"stats": {
+		"numSamples": 9085804,
+		"numSeries": 49682,
+		"numChunks": 49805
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01K443GWAC4711GX69C7K64458"
+		]
+	},
+	"version": 1
+}

@@ -1,0 +1,1428 @@
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 234.7ms | Allocations: 49996)
+  Rendered layout layouts/mailer.text.erb (Duration: 10.8ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 42.2ms | Allocations: 8293)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.7ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 39.7ms | Allocations: 8610)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.5ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 38.7ms | Allocations: 8357)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.6ms | Allocations: 2225)
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 194.5ms | Allocations: 114446)
+  Rendered layout layouts/mailer.text.erb (Duration: 11.2ms | Allocations: 3724)
+  Rendered layout layouts/mailer.html.haml (Duration: 35.6ms | Allocations: 8289)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.4ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 45.2ms | Allocations: 8474)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.3ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 41.8ms | Allocations: 8296)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.1ms | Allocations: 2225)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 81.0ms | Allocations: 20247)
+  Rendered layout layouts/mailer.text.erb (Duration: 10.1ms | Allocations: 3190)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 34.2ms | Allocations: 8289)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.5ms | Allocations: 2418)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 54.4ms | Allocations: 16330)
+  Rendered layout layouts/mailer.text.erb (Duration: 9.3ms | Allocations: 3441)
+  Rendered layout layouts/mailer.html.haml (Duration: 78.6ms | Allocations: 25337)
+  Rendered layout layouts/mailer.text.erb (Duration: 7.4ms | Allocations: 2765)
+  Rendered layout layouts/mailer.html.haml (Duration: 32.1ms | Allocations: 8289)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.5ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 42.3ms | Allocations: 8289)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.2ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 38.3ms | Allocations: 8289)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.7ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 36.5ms | Allocations: 8471)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.9ms | Allocations: 2225)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 218.9ms | Allocations: 210983)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.8ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 34.0ms | Allocations: 8301)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.9ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 40.2ms | Allocations: 8338)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.1ms | Allocations: 2225)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 50.9ms | Allocations: 7668)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.text.erb (Duration: 6.5ms | Allocations: 1650)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 32.3ms | Allocations: 8296)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.9ms | Allocations: 2225)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 36.5ms | Allocations: 8299)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.4ms | Allocations: 2225)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 44.6ms | Allocations: 10235)
+  Rendered layout layouts/mailer.text.erb (Duration: 7.0ms | Allocations: 2231)
+  Rendered layout layouts/mailer.html.haml (Duration: 31.4ms | Allocations: 8480)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.9ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 28.4ms | Allocations: 8294)
+  Rendered layout layouts/mailer.text.erb (Duration: 4.9ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 53.0ms | Allocations: 16986)
+  Rendered layout layouts/mailer.html.haml (Duration: 59.4ms | Allocations: 18433)
+  Rendered layout layouts/mailer.text.erb (Duration: 8.7ms | Allocations: 2477)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.4ms | Allocations: 2261)
+  Rendered layout layouts/mailer.html.haml (Duration: 40.7ms | Allocations: 13125)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.8ms | Allocations: 2371)
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+GraphQL-Ruby's complexity cost system is getting some "breaking fixes" in a future version. See the migration notes at https://graphql-ruby.org/api-doc/2.5.11/GraphQL/Schema.html#complexity_cost_calculation_mode_for-class_method
+
+To opt into the future behavior, configure your schema (GitlabSchema) with:
+
+  complexity_cost_calculation_mode(:future) # or `:legacy`, `:compare`
+
+
+  Rendered layout layouts/mailer.html.haml (Duration: 134.9ms | Allocations: 34227)
+  Rendered layout layouts/mailer.text.erb (Duration: 7.6ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 28.8ms | Allocations: 8465)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.0ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 32.1ms | Allocations: 8299)
+  Rendered layout layouts/mailer.text.erb (Duration: 5.0ms | Allocations: 2225)
+  Rendered layout layouts/mailer.html.haml (Duration: 47.9ms | Allocations: 8537)
+  Rendered layout layouts/mailer.text.erb (Duration: 6.2ms | Allocations: 2225)

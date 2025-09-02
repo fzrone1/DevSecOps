@@ -1,0 +1,24 @@
+{"build_time":"20250826.141249","level":"info","msg":"Starting","time":"2025-09-01T15:46:00Z","version":"v18.3.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-09-01T15:46:00Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-09-01T15:46:00Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-09-01T15:46:00Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-09-01T15:46:00Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-09-01T15:46:00Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-09-01T15:46:00Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-09-01T15:46:10Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-09-01T15:46:20Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2025-09-01T15:46:30Z","uri":""}
+{"backend_id":"rails","body_limit":104857600,"content_type":"application/json","correlation_id":"01K42ZAY9DPREH15C2CBGVF3WW","duration_ms":65,"host":"127.0.0.1:8099","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":520,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"^/api/","route_id":"api","status":404,"system":"http","time":"2025-09-01T15:46:37Z","ttfb_ms":65,"uri":"/api/v4/internal/kubernetes/receptive_agents","user_agent":"gitlab-kas/v18.3.1/v18.3.1","written_bytes":25}
+{"backend_id":"rails","body_limit":104857600,"content_type":"text/html; charset=utf-8","correlation_id":"01K42ZBJK2ST9BQS20HZJM2RC7","duration_ms":517,"host":"localhost:8099","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":209,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-09-01T15:46:58Z","ttfb_ms":517,"uri":"/help","user_agent":"curl/8.14.1-DEV","written_bytes":29523}
+{"level":"info","msg":"redis: discarding bad PubSub connection: EOF","time":"2025-09-01T15:47:01Z"}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2025-09-01T15:47:12Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2025-09-01T15:47:12Z"}
+{"error":null,"level":"fatal","msg":"shutting down","time":"2025-09-01T15:47:12Z"}
+{"build_time":"20250826.141249","level":"info","msg":"Starting","time":"2025-09-01T15:47:12Z","version":"v18.3.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2025-09-01T15:47:12Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2025-09-01T15:47:12Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2025-09-01T15:47:12Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2025-09-01T15:47:12Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2025-09-01T15:47:12Z"}
+{"backend_id":"rails","body_limit":104857600,"content_type":"application/json","correlation_id":"01K42ZC6B9953PQ4HEGNACSG4W","duration_ms":91,"host":"127.0.0.1:8099","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":520,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"^/api/","route_id":"api","status":404,"system":"http","time":"2025-09-01T15:47:18Z","ttfb_ms":90,"uri":"/api/v4/internal/kubernetes/receptive_agents","user_agent":"gitlab-kas/v18.3.1/v18.3.1","written_bytes":25}
+{"backend_id":"rails","body_limit":104857600,"content_type":"text/html; charset=utf-8","correlation_id":"01K42ZDDQP322MNVBBE31ZA3WP","duration_ms":647,"host":"localhost:8099","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","read_bytes":209,"referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","route_id":"default","status":200,"system":"http","time":"2025-09-01T15:47:59Z","ttfb_ms":647,"uri":"/help","user_agent":"curl/8.14.1-DEV","written_bytes":29523}

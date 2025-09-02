@@ -1,0 +1,37 @@
+- hosts: web
+  become: yes
+  tasks:
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Configure nginx as API gateway
+      copy:
+        dest: /etc/nginx/sites-available/hello
+        content: |
+          server {
+              listen 80;
+              server_name _;
+
+              location / {
+                  proxy_pass http://127.0.0.1:5000;
+                  proxy_set_header Host $host;
+                  proxy_set_header X-Real-IP $remote_addr;
+                  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                  proxy_set_header X-Forwarded-Proto $scheme;
+              }
+          }
+
+    - name: Enable site
+      file:
+        src: /etc/nginx/sites-available/hello
+        dest: /etc/nginx/sites-enabled/hello
+        state: link
+        force: yes
+
+    - name: Restart nginx
+      service:
+        name: nginx
+        state: restarted

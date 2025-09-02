@@ -1,0 +1,19 @@
+2025-09-01_16:44:54.03826 LOG:  starting PostgreSQL 16.8 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, 64-bit
+2025-09-01_16:44:54.04042 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2025-09-01_16:44:54.05099 LOG:  database system was interrupted; last known up at 2025-09-01 16:43:48 GMT
+2025-09-01_16:44:55.94617 LOG:  database system was not properly shut down; automatic recovery in progress
+2025-09-01_16:44:55.94621 LOG:  invalid record length at 0/9346450: expected at least 24, got 0
+2025-09-01_16:44:55.94621 LOG:  redo is not required
+2025-09-01_16:44:55.95811 LOG:  database system is ready to accept connections
+2025-09-01_16:44:57.61825 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_16:44:57.61832 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_16:44:57.61832 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_16:44:57.68989 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_16:44:57.68990 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_16:44:57.68991 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_16:44:57.74384 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_16:44:57.74386 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_16:44:57.74387 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"
+2025-09-01_16:44:58.24477 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2025-09-01_16:44:58.24479 FATAL:  Peer authentication failed for user "gitlab"
+2025-09-01_16:44:58.24479 DETAIL:  Connection matched file "/var/opt/gitlab/postgresql/data/pg_hba.conf" line 70: "local   all         all                               peer map=gitlab"

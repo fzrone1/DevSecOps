@@ -1,0 +1,28 @@
+version: 0.1
+log:
+  level: info
+  formatter: text
+  fields:
+    service: registry
+    environment: production
+storage: {"filesystem":{"rootdirectory":"/var/opt/gitlab/gitlab-rails/shared/registry"},"cache":{"blobdescriptor":"inmemory"},"delete":{"enabled":true}}
+http:
+  addr: 127.0.0.1:5000
+  secret: "0bdbfd0f3e32b020a93205934bf87a11dbc59b895570224c3b3b60351d8bb0edcb63ade0de8a98c9c4bbc9fa599c4a298f9b9994837e116cfdaeae2958c26828"
+  headers:
+    X-Content-Type-Options: [nosniff]
+health:
+  storagedriver:
+    enabled: true
+    interval: 10s
+    threshold: 3
+auth:
+  token:
+    realm: http://172.19.149.236:8099/jwt/auth
+    service: container_registry
+    issuer: omnibus-gitlab-issuer
+    rootcertbundle: /var/opt/gitlab/registry/gitlab-registry.crt
+    autoredirect: false
+validation:
+  disabled: true
+database: {"enabled":false,"user":"registry","dbname":"registry","port":5432,"sslmode":"prefer","host":"/var/opt/gitlab/postgresql"}
